@@ -4,7 +4,7 @@
 #### Integrated Digital Media • Technology, Culture & Society Department 
 
     Conrad Rushing • cr116@nyu.edu • Fall 2015 
-    Tuesdays & Thursdays • 2:30-4:20PM • 2MTC MAGNET 811 • 3 credit hrs
+    Tuesdays & Thursdays • 2:30-4:20PM • 2MTC MAGNET 813 • 3 credit hrs
     Office hours by appointment
    
   
