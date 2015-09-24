@@ -203,7 +203,7 @@ TBD
   * Information and Function Decomposition
   * Javascript Objects
 * [Week 4](./week_04/README.md)
-  * ReactJS
+  * jQuery and Element Manipulation
 * [Week 5](./week_05/README.md)
   * AJAX and API
   * HTTP, State, and Persistence
