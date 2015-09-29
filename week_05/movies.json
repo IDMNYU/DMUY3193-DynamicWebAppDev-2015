@@ -1,0 +1,2426 @@
+{
+    "full_set": [
+        {
+            "year": "1934",
+            "movies": [
+                {
+                    "movie_title": "The Barretts of Wimpole Street",
+                    "producer": "Metro-Goldwyn-Mayer [came in 2nd]"
+                },
+                {
+                    "movie_title": "Cleopatra",
+                    "producer": "Paramount"
+                },
+                {
+                    "movie_title": "Flirtation Walk",
+                    "producer": "First National"
+                },
+                {
+                    "movie_title": "The Gay Divorcee",
+                    "producer": "RKO Radio"
+                },
+                {
+                    "movie_title": "Here Comes the Navy",
+                    "producer": "Warner Bros."
+                },
+                {
+                    "movie_title": "The House of Rothschild",
+                    "producer": "20th Century [came in 3rd]"
+                },
+                {
+                    "movie_title": "Imitation of Life",
+                    "producer": "Universal"
+                },
+                {
+                    "winner": true,
+                    "movie_title": "It Happened One Night",
+                    "producer": "Columbia"
+                },
+                {
+                    "movie_title": "One Night of Love",
+                    "producer": "Columbia"
+                },
+                {
+                    "movie_title": "The Thin Man",
+                    "producer": "Metro-Goldwyn-Mayer"
+                },
+                {
+                    "movie_title": "Viva Villa!",
+                    "producer": "Metro-Goldwyn-Mayer"
+                },
+                {
+                    "movie_title": "The White Parade",
+                    "producer": "Jesse L. Lasky (production company)"
+                }
+            ]
+        },
+        {
+            "year": "1935",
+            "movies": [
+                {
+                    "movie_title": "Alice Adams",
+                    "producer": "RKO Radio"
+                },
+                {
+                    "movie_title": "Broadway Melody of 1936",
+                    "producer": "Metro-Goldwyn-Mayer"
+                },
+                {
+                    "movie_title": "Captain Blood",
+                    "producer": "Cosmopolitan [came in 3rd]"
+                },
+                {
+                    "movie_title": "David Copperfield",
+                    "producer": "Metro-Goldwyn-Mayer"
+                },
+                {
+                    "movie_title": "The Informer",
+                    "producer": "RKO Radio [came in 2nd]"
+                },
+                {
+                    "movie_title": "Les Miserables",
+                    "producer": "20th Century"
+                },
+                {
+                    "movie_title": "The Lives of a Bengal Lancer",
+                    "producer": "Paramount"
+                },
+                {
+                    "movie_title": "A Midsummer Night's Dream",
+                    "producer": "Warner Bros."
+                },
+                {
+                    "winner": true,
+                    "movie_title": "Mutiny on the Bounty",
+                    "producer": "Metro-Goldwyn-Mayer"
+                },
+                {
+                    "movie_title": "Naughty Marietta",
+                    "producer": "Metro-Goldwyn-Mayer"
+                },
+                {
+                    "movie_title": "Ruggles of Red Gap",
+                    "producer": "Paramount"
+                },
+                {
+                    "movie_title": "Top Hat",
+                    "producer": "RKO Radio"
+                }
+            ]
+        },
+        {
+            "year": "1936",
+            "movies": [
+                {
+                    "movie_title": "Anthony Adverse",
+                    "producer": "Warner Bros."
+                },
+                {
+                    "movie_title": "Dodsworth",
+                    "producer": "Samuel Goldwyn Productions"
+                },
+                {
+                    "winner": true,
+                    "movie_title": "The Great Ziegfeld",
+                    "producer": "Metro-Goldwyn-Mayer"
+                },
+                {
+                    "movie_title": "Libeled Lady",
+                    "producer": "Metro-Goldwyn-Mayer"
+                },
+                {
+                    "movie_title": "Mr. Deeds Goes to Town",
+                    "producer": "Columbia"
+                },
+                {
+                    "movie_title": "Romeo and Juliet",
+                    "producer": "Metro-Goldwyn-Mayer"
+                },
+                {
+                    "movie_title": "San Francisco",
+                    "producer": "Metro-Goldwyn-Mayer"
+                },
+                {
+                    "movie_title": "The Story of Louis Pasteur",
+                    "producer": "Cosmopolitan"
+                },
+                {
+                    "movie_title": "A Tale of Two Cities",
+                    "producer": "Metro-Goldwyn-Mayer"
+                },
+                {
+                    "movie_title": "Three Smart Girls",
+                    "producer": "Universal"
+                }
+            ]
+        },
+        {
+            "year": "1937",
+            "movies": [
+                {
+                    "movie_title": "The Awful Truth",
+                    "producer": "Columbia"
+                },
+                {
+                    "movie_title": "Captains Courageous",
+                    "producer": "Metro-Goldwyn-Mayer"
+                },
+                {
+                    "movie_title": "Dead End",
+                    "producer": "Samuel Goldwyn Productions"
+                },
+                {
+                    "movie_title": "The Good Earth",
+                    "producer": "Metro-Goldwyn-Mayer"
+                },
+                {
+                    "movie_title": "In Old Chicago",
+                    "producer": "20th Century-Fox"
+                },
+                {
+                    "winner": true,
+                    "movie_title": "The Life of Emile Zola",
+                    "producer": "Warner Bros."
+                },
+                {
+                    "movie_title": "Lost Horizon",
+                    "producer": "Columbia"
+                },
+                {
+                    "movie_title": "One Hundred Men and a Girl",
+                    "producer": "Universal"
+                },
+                {
+                    "movie_title": "Stage Door",
+                    "producer": "RKO Radio"
+                },
+                {
+                    "movie_title": "A Star Is Born",
+                    "producer": "Selznick International Pictures"
+                }
+            ]
+        },
+        {
+            "year": "1938",
+            "movies": [
+                {
+                    "movie_title": "The Adventures of Robin Hood",
+                    "producer": "Warner Bros.-First National"
+                },
+                {
+                    "movie_title": "Alexander's Ragtime Band",
+                    "producer": "20th Century-Fox"
+                },
+                {
+                    "movie_title": "Boys Town",
+                    "producer": "Metro-Goldwyn-Mayer"
+                },
+                {
+                    "movie_title": "The Citadel",
+                    "producer": "Metro-Goldwyn-Mayer"
+                },
+                {
+                    "movie_title": "Four Daughters",
+                    "producer": "Warner Bros.-First National"
+                },
+                {
+                    "movie_title": "Grand Illusion",
+                    "producer": "Realization D'Art Cinematographique"
+                },
+                {
+                    "movie_title": "Jezebel",
+                    "producer": "Warner Bros."
+                },
+                {
+                    "movie_title": "Pygmalion",
+                    "producer": "Metro-Goldwyn-Mayer"
+                },
+                {
+                    "movie_title": "Test Pilot",
+                    "producer": "Metro-Goldwyn-Mayer"
+                },
+                {
+                    "winner": true,
+                    "movie_title": "You Can't Take It with You",
+                    "producer": "Columbia"
+                }
+            ]
+        },
+        {
+            "year": "1939",
+            "movies": [
+                {
+                    "movie_title": "Dark Victory",
+                    "producer": "Warner Bros.-First National"
+                },
+                {
+                    "winner": true,
+                    "movie_title": "Gone with the Wind",
+                    "producer": "Selznick International Pictures"
+                },
+                {
+                    "movie_title": "Goodbye, Mr. Chips",
+                    "producer": "Metro-Goldwyn-Mayer"
+                },
+                {
+                    "movie_title": "Love Affair",
+                    "producer": "RKO Radio"
+                },
+                {
+                    "movie_title": "Mr. Smith Goes to Washington",
+                    "producer": "Columbia"
+                },
+                {
+                    "movie_title": "Ninotchka",
+                    "producer": "Metro-Goldwyn-Mayer"
+                },
+                {
+                    "movie_title": "Of Mice and Men",
+                    "producer": "Hal Roach (production company)"
+                },
+                {
+                    "movie_title": "Stagecoach",
+                    "producer": "Walter Wanger (production company)"
+                },
+                {
+                    "movie_title": "The Wizard of Oz",
+                    "producer": "Metro-Goldwyn-Mayer"
+                },
+                {
+                    "movie_title": "Wuthering Heights",
+                    "producer": "Samuel Goldwyn Productions"
+                }
+            ]
+        },
+        {
+            "year": "1940",
+            "movies": [
+                {
+                    "movie_title": "All This, and Heaven Too",
+                    "producer": "Warner Bros."
+                },
+                {
+                    "movie_title": "Foreign Correspondent",
+                    "producer": "Walter Wanger (production company)"
+                },
+                {
+                    "movie_title": "The Grapes of Wrath",
+                    "producer": "20th Century-Fox"
+                },
+                {
+                    "movie_title": "The Great Dictator",
+                    "producer": "Charles Chaplin Productions"
+                },
+                {
+                    "movie_title": "Kitty Foyle",
+                    "producer": "RKO Radio"
+                },
+                {
+                    "movie_title": "The Letter",
+                    "producer": "Warner Bros."
+                },
+                {
+                    "movie_title": "The Long Voyage Home",
+                    "producer": "Argosy-Wanger"
+                },
+                {
+                    "movie_title": "Our Town",
+                    "producer": "Sol Lesser (production company)"
+                },
+                {
+                    "movie_title": "The Philadelphia Story",
+                    "producer": "Metro-Goldwyn-Mayer"
+                },
+                {
+                    "winner": true,
+                    "movie_title": "Rebecca",
+                    "producer": "Selznick International Pictures"
+                }
+            ]
+        },
+        {
+            "year": "1941",
+            "movies": [
+                {
+                    "movie_title": "Blossoms in the Dust",
+                    "producer": "Metro-Goldwyn-Mayer"
+                },
+                {
+                    "movie_title": "Citizen Kane",
+                    "producer": "Mercury"
+                },
+                {
+                    "movie_title": "Here Comes Mr. Jordan",
+                    "producer": "Columbia"
+                },
+                {
+                    "movie_title": "Hold Back the Dawn",
+                    "producer": "Paramount"
+                },
+                {
+                    "winner": true,
+                    "movie_title": "How Green Was My Valley",
+                    "producer": "20th Century-Fox"
+                },
+                {
+                    "movie_title": "The Little Foxes",
+                    "producer": "Samuel Goldwyn Productions"
+                },
+                {
+                    "movie_title": "The Maltese Falcon",
+                    "producer": "Warner Bros."
+                },
+                {
+                    "movie_title": "One Foot in Heaven",
+                    "producer": "Warner Bros."
+                },
+                {
+                    "movie_title": "Sergeant York",
+                    "producer": "Warner Bros."
+                },
+                {
+                    "movie_title": "Suspicion",
+                    "producer": "RKO Radio"
+                }
+            ]
+        },
+        {
+            "year": "1942",
+            "movies": [
+                {
+                    "movie_title": "The Invaders",
+                    "producer": "Ortus"
+                },
+                {
+                    "movie_title": "Kings Row",
+                    "producer": "Warner Bros."
+                },
+                {
+                    "movie_title": "The Magnificent Ambersons",
+                    "producer": "Mercury"
+                },
+                {
+                    "winner": true,
+                    "movie_title": "Mrs. Miniver",
+                    "producer": "Metro-Goldwyn-Mayer"
+                },
+                {
+                    "movie_title": "The Pied Piper",
+                    "producer": "20th Century-Fox"
+                },
+                {
+                    "movie_title": "The Pride of the Yankees",
+                    "producer": "Samuel Goldwyn Productions"
+                },
+                {
+                    "movie_title": "Random Harvest",
+                    "producer": "Metro-Goldwyn-Mayer"
+                },
+                {
+                    "movie_title": "The Talk of the Town",
+                    "producer": "Columbia"
+                },
+                {
+                    "movie_title": "Wake Island",
+                    "producer": "Paramount"
+                },
+                {
+                    "movie_title": "Yankee Doodle Dandy",
+                    "producer": "Warner Bros."
+                }
+            ]
+        },
+        {
+            "year": "1943",
+            "movies": [
+                {
+                    "winner": true,
+                    "movie_title": "Casablanca",
+                    "producer": "Warner Bros."
+                },
+                {
+                    "movie_title": "For Whom the Bell Tolls",
+                    "producer": "Paramount"
+                },
+                {
+                    "movie_title": "Heaven Can Wait",
+                    "producer": "20th Century-Fox"
+                },
+                {
+                    "movie_title": "The Human Comedy",
+                    "producer": "Metro-Goldwyn-Mayer"
+                },
+                {
+                    "movie_title": "In Which We Serve",
+                    "producer": "Two Cities"
+                },
+                {
+                    "movie_title": "Madame Curie",
+                    "producer": "Metro-Goldwyn-Mayer"
+                },
+                {
+                    "movie_title": "The More the Merrier",
+                    "producer": "Columbia"
+                },
+                {
+                    "movie_title": "The Ox-Bow Incident",
+                    "producer": "20th Century-Fox"
+                },
+                {
+                    "movie_title": "The Song of Bernadette",
+                    "producer": "20th Century-Fox"
+                },
+                {
+                    "movie_title": "Watch on the Rhine",
+                    "producer": "Warner Bros."
+                }
+            ]
+        },
+        {
+            "year": "1944",
+            "movies": [
+                {
+                    "movie_title": "Double Indemnity",
+                    "producer": "Paramount"
+                },
+                {
+                    "movie_title": "Gaslight",
+                    "producer": "Metro-Goldwyn-Mayer"
+                },
+                {
+                    "winner": true,
+                    "movie_title": "Going My Way",
+                    "producer": "Paramount"
+                },
+                {
+                    "movie_title": "Since You Went Away",
+                    "producer": "Selznick International Pictures"
+                },
+                {
+                    "movie_title": "Wilson",
+                    "producer": "20th Century-Fox"
+                }
+            ]
+        },
+        {
+            "year": "1945",
+            "movies": [
+                {
+                    "movie_title": "Anchors Aweigh",
+                    "producer": "Metro-Goldwyn-Mayer"
+                },
+                {
+                    "movie_title": "The Bells of St. Mary's",
+                    "producer": "Rainbow Productions"
+                },
+                {
+                    "winner": true,
+                    "movie_title": "The Lost Weekend",
+                    "producer": "Paramount"
+                },
+                {
+                    "movie_title": "Mildred Pierce",
+                    "producer": "Warner Bros."
+                },
+                {
+                    "movie_title": "Spellbound",
+                    "producer": "Selznick International Pictures"
+                }
+            ]
+        },
+        {
+            "year": "1946",
+            "movies": [
+                {
+                    "winner": true,
+                    "movie_title": "The Best Years of Our Lives",
+                    "producer": "Samuel Goldwyn Productions"
+                },
+                {
+                    "movie_title": "Henry V",
+                    "producer": "J. Arthur Rank-Two Cities Films"
+                },
+                {
+                    "movie_title": "It's a Wonderful Life",
+                    "producer": "Liberty Films"
+                },
+                {
+                    "movie_title": "The Razor's Edge",
+                    "producer": "20th Century-Fox"
+                },
+                {
+                    "movie_title": "The Yearling",
+                    "producer": "Metro-Goldwyn-Mayer"
+                }
+            ]
+        },
+        {
+            "year": "1947",
+            "movies": [
+                {
+                    "movie_title": "The Bishop's Wife",
+                    "producer": "Samuel Goldwyn Productions"
+                },
+                {
+                    "movie_title": "Crossfire",
+                    "producer": "RKO Radio"
+                },
+                {
+                    "winner": true,
+                    "movie_title": "Gentleman's Agreement",
+                    "producer": "20th Century-Fox"
+                },
+                {
+                    "movie_title": "Great Expectations",
+                    "producer": "J. Arthur Rank-Cineguild"
+                },
+                {
+                    "movie_title": "Miracle on 34th Street",
+                    "producer": "20th Century-Fox"
+                }
+            ]
+        },
+        {
+            "year": "1948",
+            "movies": [
+                {
+                    "winner": true,
+                    "movie_title": "Hamlet",
+                    "producer": "J. Arthur Rank-Two Cities Films"
+                },
+                {
+                    "movie_title": "Johnny Belinda",
+                    "producer": "Warner Bros."
+                },
+                {
+                    "movie_title": "The Red Shoes",
+                    "producer": "J. Arthur Rank-Archers"
+                },
+                {
+                    "movie_title": "The Snake Pit",
+                    "producer": "20th Century-Fox"
+                },
+                {
+                    "movie_title": "The Treasure of the Sierra Madre",
+                    "producer": "Warner Bros."
+                }
+            ]
+        },
+        {
+            "year": "1949",
+            "movies": [
+                {
+                    "winner": true,
+                    "movie_title": "All the King's Men",
+                    "producer": "Robert Rossen Productions"
+                },
+                {
+                    "movie_title": "Battleground",
+                    "producer": "Metro-Goldwyn-Mayer"
+                },
+                {
+                    "movie_title": "The Heiress",
+                    "producer": "Paramount"
+                },
+                {
+                    "movie_title": "A Letter to Three Wives",
+                    "producer": "20th Century-Fox"
+                },
+                {
+                    "movie_title": "Twelve O'Clock High",
+                    "producer": "20th Century-Fox"
+                }
+            ]
+        },
+        {
+            "year": "1950",
+            "movies": [
+                {
+                    "winner": true,
+                    "movie_title": "All about Eve",
+                    "producer": "20th Century-Fox"
+                },
+                {
+                    "movie_title": "Born Yesterday",
+                    "producer": "Columbia"
+                },
+                {
+                    "movie_title": "Father of the Bride",
+                    "producer": "Metro-Goldwyn-Mayer"
+                },
+                {
+                    "movie_title": "King Solomon's Mines",
+                    "producer": "Metro-Goldwyn-Mayer"
+                },
+                {
+                    "movie_title": "Sunset Blvd.",
+                    "producer": "Paramount"
+                }
+            ]
+        },
+        {
+            "year": "1951",
+            "movies": [
+                {
+                    "winner": true,
+                    "movie_title": "An American in Paris",
+                    "producer": "Arthur Freed, Producer"
+                },
+                {
+                    "movie_title": "Decision before Dawn",
+                    "producer": "Anatole Litvak and Frank McCarthy, Producers"
+                },
+                {
+                    "movie_title": "A Place in the Sun",
+                    "producer": "George Stevens, Producer"
+                },
+                {
+                    "movie_title": "Quo Vadis",
+                    "producer": "Sam Zimbalist, Producer"
+                },
+                {
+                    "movie_title": "A Streetcar Named Desire",
+                    "producer": "Charles K. Feldman, Producer"
+                }
+            ]
+        },
+        {
+            "year": "1952",
+            "movies": [
+                {
+                    "winner": true,
+                    "movie_title": "The Greatest Show on Earth",
+                    "producer": "Cecil B. DeMille, Producer"
+                },
+                {
+                    "movie_title": "High Noon",
+                    "producer": "Stanley Kramer, Producer"
+                },
+                {
+                    "movie_title": "Ivanhoe",
+                    "producer": "Pandro S. Berman, Producer"
+                },
+                {
+                    "movie_title": "Moulin Rouge",
+                    "producer": "Romulus Films"
+                },
+                {
+                    "movie_title": "The Quiet Man",
+                    "producer": "John Ford and Merian C. Cooper, Producers"
+                }
+            ]
+        },
+        {
+            "year": "1953",
+            "movies": [
+                {
+                    "winner": true,
+                    "movie_title": "From Here to Eternity",
+                    "producer": "Buddy Adler, Producer"
+                },
+                {
+                    "movie_title": "Julius Caesar",
+                    "producer": "John Houseman, Producer"
+                },
+                {
+                    "movie_title": "The Robe",
+                    "producer": "Frank Ross, Producer"
+                },
+                {
+                    "movie_title": "Roman Holiday",
+                    "producer": "William Wyler, Producer"
+                },
+                {
+                    "movie_title": "Shane",
+                    "producer": "George Stevens, Producer"
+                }
+            ]
+        },
+        {
+            "year": "1954",
+            "movies": [
+                {
+                    "movie_title": "The Caine Mutiny",
+                    "producer": "Stanley Kramer, Producer"
+                },
+                {
+                    "movie_title": "The Country Girl",
+                    "producer": "William Perlberg, Producer"
+                },
+                {
+                    "winner": true,
+                    "movie_title": "On the Waterfront",
+                    "producer": "Sam Spiegel, Producer"
+                },
+                {
+                    "movie_title": "Seven Brides for Seven Brothers",
+                    "producer": "Jack Cummings, Producer"
+                },
+                {
+                    "movie_title": "Three Coins in the Fountain",
+                    "producer": "Sol C. Siegel, Producer"
+                }
+            ]
+        },
+        {
+            "year": "1955",
+            "movies": [
+                {
+                    "movie_title": "Love Is a Many-Splendored Thing",
+                    "producer": "Buddy Adler, Producer"
+                },
+                {
+                    "winner": true,
+                    "movie_title": "Marty",
+                    "producer": "Harold Hecht, Producer"
+                },
+                {
+                    "movie_title": "Mister Roberts",
+                    "producer": "Leland Hayward, Producer"
+                },
+                {
+                    "movie_title": "Picnic",
+                    "producer": "Fred Kohlmar, Producer"
+                },
+                {
+                    "movie_title": "The Rose Tattoo",
+                    "producer": "Hal B. Wallis, Producer"
+                }
+            ]
+        },
+        {
+            "year": "1956",
+            "movies": [
+                {
+                    "winner": true,
+                    "movie_title": "Around the World in 80 Days",
+                    "producer": "Michael Todd, Producer"
+                },
+                {
+                    "movie_title": "Friendly Persuasion",
+                    "producer": "William Wyler, Producer"
+                },
+                {
+                    "movie_title": "Giant",
+                    "producer": "George Stevens and Henry Ginsberg, Producers"
+                },
+                {
+                    "movie_title": "The King and I",
+                    "producer": "Charles Brackett, Producer"
+                },
+                {
+                    "movie_title": "The Ten Commandments",
+                    "producer": "Cecil B. DeMille, Producer"
+                }
+            ]
+        },
+        {
+            "year": "1957",
+            "movies": [
+                {
+                    "winner": true,
+                    "movie_title": "The Bridge on the River Kwai",
+                    "producer": "Sam Spiegel, Producer"
+                },
+                {
+                    "movie_title": "Peyton Place",
+                    "producer": "Jerry Wald, Producer"
+                },
+                {
+                    "movie_title": "Sayonara",
+                    "producer": "William Goetz, Producer"
+                },
+                {
+                    "movie_title": "12 Angry Men",
+                    "producer": "Henry Fonda and Reginald Rose, Producers"
+                },
+                {
+                    "movie_title": "Witness for the Prosecution",
+                    "producer": "Arthur Hornblow, Jr., Producer"
+                }
+            ]
+        },
+        {
+            "year": "1958",
+            "movies": [
+                {
+                    "movie_title": "Auntie Mame",
+                    "producer": "Warner Bros."
+                },
+                {
+                    "movie_title": "Cat on a Hot Tin Roof",
+                    "producer": "Lawrence Weingarten, Producer"
+                },
+                {
+                    "movie_title": "The Defiant Ones",
+                    "producer": "Stanley Kramer, Producer"
+                },
+                {
+                    "winner": true,
+                    "movie_title": "Gigi",
+                    "producer": "Arthur Freed, Producer"
+                },
+                {
+                    "movie_title": "Separate Tables",
+                    "producer": "Harold Hecht, Producer"
+                }
+            ]
+        },
+        {
+            "year": "1959",
+            "movies": [
+                {
+                    "movie_title": "Anatomy of a Murder",
+                    "producer": "Otto Preminger, Producer"
+                },
+                {
+                    "winner": true,
+                    "movie_title": "Ben-Hur",
+                    "producer": "Sam Zimbalist, Producer"
+                },
+                {
+                    "movie_title": "The Diary of Anne Frank",
+                    "producer": "George Stevens, Producer"
+                },
+                {
+                    "movie_title": "The Nun's Story",
+                    "producer": "Henry Blanke, Producer"
+                },
+                {
+                    "movie_title": "Room at the Top",
+                    "producer": "John Woolf and James Woolf, Producers"
+                }
+            ]
+        },
+        {
+            "year": "1960",
+            "movies": [
+                {
+                    "movie_title": "The Alamo",
+                    "producer": "John Wayne, Producer"
+                },
+                {
+                    "winner": true,
+                    "movie_title": "The Apartment",
+                    "producer": "Billy Wilder, Producer"
+                },
+                {
+                    "movie_title": "Elmer Gantry",
+                    "producer": "Bernard Smith, Producer"
+                },
+                {
+                    "movie_title": "Sons and Lovers",
+                    "producer": "Jerry Wald, Producer"
+                },
+                {
+                    "movie_title": "The Sundowners",
+                    "producer": "Fred Zinnemann, Producer"
+                }
+            ]
+        },
+        {
+            "year": "1961",
+            "movies": [
+                {
+                    "movie_title": "Fanny",
+                    "producer": "Joshua Logan, Producer"
+                },
+                {
+                    "movie_title": "The Guns of Navarone",
+                    "producer": "Carl Foreman, Producer"
+                },
+                {
+                    "movie_title": "The Hustler",
+                    "producer": "Robert Rossen, Producer"
+                },
+                {
+                    "movie_title": "Judgment at Nuremberg",
+                    "producer": "Stanley Kramer, Producer"
+                },
+                {
+                    "winner": true,
+                    "movie_title": "West Side Story",
+                    "producer": "Robert Wise, Producer"
+                }
+            ]
+        },
+        {
+            "year": "1962",
+            "movies": [
+                {
+                    "winner": true,
+                    "movie_title": "Lawrence of Arabia",
+                    "producer": "Sam Spiegel, Producer"
+                },
+                {
+                    "movie_title": "The Longest Day",
+                    "producer": "Darryl F. Zanuck, Producer"
+                },
+                {
+                    "movie_title": "Meredith Willson's The Music Man",
+                    "producer": "Morton Da Costa, Producer"
+                },
+                {
+                    "movie_title": "Mutiny on the Bounty",
+                    "producer": "Aaron Rosenberg, Producer"
+                },
+                {
+                    "movie_title": "To Kill a Mockingbird",
+                    "producer": "Alan J. Pakula, Producer"
+                }
+            ]
+        },
+        {
+            "year": "1963",
+            "movies": [
+                {
+                    "movie_title": "America America",
+                    "producer": "Elia Kazan, Producer"
+                },
+                {
+                    "movie_title": "Cleopatra",
+                    "producer": "Walter Wanger, Producer"
+                },
+                {
+                    "movie_title": "How the West Was Won",
+                    "producer": "Bernard Smith, Producer"
+                },
+                {
+                    "movie_title": "Lilies of the Field",
+                    "producer": "Ralph Nelson, Producer"
+                },
+                {
+                    "winner": true,
+                    "movie_title": "Tom Jones",
+                    "producer": "Tony Richardson, Producer"
+                }
+            ]
+        },
+        {
+            "year": "1964",
+            "movies": [
+                {
+                    "movie_title": "Becket",
+                    "producer": "Hal B. Wallis, Producer"
+                },
+                {
+                    "movie_title": "Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb",
+                    "producer": "Stanley Kubrick, Producer"
+                },
+                {
+                    "movie_title": "Mary Poppins",
+                    "producer": "Walt Disney and Bill Walsh, Producers"
+                },
+                {
+                    "winner": true,
+                    "movie_title": "My Fair Lady",
+                    "producer": "Jack L. Warner, Producer"
+                },
+                {
+                    "movie_title": "Zorba the Greek",
+                    "producer": "Michael Cacoyannis, Producer"
+                }
+            ]
+        },
+        {
+            "year": "1965",
+            "movies": [
+                {
+                    "movie_title": "Darling",
+                    "producer": "Joseph Janni, Producer"
+                },
+                {
+                    "movie_title": "Doctor Zhivago",
+                    "producer": "Carlo Ponti, Producer"
+                },
+                {
+                    "movie_title": "Ship of Fools",
+                    "producer": "Stanley Kramer, Producer"
+                },
+                {
+                    "winner": true,
+                    "movie_title": "The Sound of Music",
+                    "producer": "Robert Wise, Producer"
+                },
+                {
+                    "movie_title": "A Thousand Clowns",
+                    "producer": "Fred Coe, Producer"
+                }
+            ]
+        },
+        {
+            "year": "1966",
+            "movies": [
+                {
+                    "movie_title": "Alfie",
+                    "producer": "Lewis Gilbert, Producer"
+                },
+                {
+                    "winner": true,
+                    "movie_title": "A Man for All Seasons",
+                    "producer": "Fred Zinnemann, Producer"
+                },
+                {
+                    "movie_title": "The Russians Are Coming The Russians Are Coming",
+                    "producer": "Norman Jewison, Producer"
+                },
+                {
+                    "movie_title": "The Sand Pebbles",
+                    "producer": "Robert Wise, Producer"
+                },
+                {
+                    "movie_title": "Who's Afraid of Virginia Woolf?",
+                    "producer": "Ernest Lehman, Producer"
+                }
+            ]
+        },
+        {
+            "year": "1967",
+            "movies": [
+                {
+                    "movie_title": "Bonnie and Clyde",
+                    "producer": "Warren Beatty, Producer"
+                },
+                {
+                    "movie_title": "Doctor Dolittle",
+                    "producer": "Arthur P. Jacobs, Producer"
+                },
+                {
+                    "movie_title": "The Graduate",
+                    "producer": "Lawrence Turman, Producer"
+                },
+                {
+                    "movie_title": "Guess Who's Coming to Dinner",
+                    "producer": "Stanley Kramer, Producer"
+                },
+                {
+                    "winner": true,
+                    "movie_title": "In the Heat of the Night",
+                    "producer": "Walter Mirisch, Producer"
+                }
+            ]
+        },
+        {
+            "year": "1968",
+            "movies": [
+                {
+                    "movie_title": "Funny Girl",
+                    "producer": "Ray Stark, Producer"
+                },
+                {
+                    "movie_title": "The Lion in Winter",
+                    "producer": "Martin Poll, Producer"
+                },
+                {
+                    "winner": true,
+                    "movie_title": "Oliver!",
+                    "producer": "John Woolf, Producer"
+                },
+                {
+                    "movie_title": "Rachel, Rachel",
+                    "producer": "Paul Newman, Producer"
+                },
+                {
+                    "movie_title": "Romeo and Juliet",
+                    "producer": "Anthony Havelock-Allan and John Brabourne, Producers"
+                }
+            ]
+        },
+        {
+            "year": "1969",
+            "movies": [
+                {
+                    "movie_title": "Anne of the Thousand Days",
+                    "producer": "Hal B. Wallis, Producer"
+                },
+                {
+                    "movie_title": "Butch Cassidy and the Sundance Kid",
+                    "producer": "John Foreman, Producer"
+                },
+                {
+                    "movie_title": "Hello, Dolly!",
+                    "producer": "Ernest Lehman, Producer"
+                },
+                {
+                    "winner": true,
+                    "movie_title": "Midnight Cowboy",
+                    "producer": "Jerome Hellman, Producer"
+                },
+                {
+                    "movie_title": "Z",
+                    "producer": "Jacques Perrin and Hamed Rachedi, Producers"
+                }
+            ]
+        },
+        {
+            "year": "1970",
+            "movies": [
+                {
+                    "movie_title": "Airport",
+                    "producer": "Ross Hunter, Producer"
+                },
+                {
+                    "movie_title": "Five Easy Pieces",
+                    "producer": "Bob Rafelson and Richard Wechsler, Producers"
+                },
+                {
+                    "movie_title": "Love Story",
+                    "producer": "Howard G. Minsky, Producer"
+                },
+                {
+                    "movie_title": "M*A*S*H",
+                    "producer": "Ingo Preminger, Producer"
+                },
+                {
+                    "winner": true,
+                    "movie_title": "Patton",
+                    "producer": "Frank McCarthy, Producer"
+                }
+            ]
+        },
+        {
+            "year": "1971",
+            "movies": [
+                {
+                    "movie_title": "A Clockwork Orange",
+                    "producer": "Stanley Kubrick, Producer"
+                },
+                {
+                    "movie_title": "Fiddler on the Roof",
+                    "producer": "Norman Jewison, Producer"
+                },
+                {
+                    "winner": true,
+                    "movie_title": "The French Connection",
+                    "producer": "Philip D'Antoni, Producer"
+                },
+                {
+                    "movie_title": "The Last Picture Show",
+                    "producer": "Stephen J. Friedman, Producer"
+                },
+                {
+                    "movie_title": "Nicholas and Alexandra",
+                    "producer": "Sam Spiegel, Producer"
+                }
+            ]
+        },
+        {
+            "year": "1972",
+            "movies": [
+                {
+                    "movie_title": "Cabaret",
+                    "producer": "Cy Feuer, Producer"
+                },
+                {
+                    "movie_title": "Deliverance",
+                    "producer": "John Boorman, Producer"
+                },
+                {
+                    "movie_title": "The Emigrants",
+                    "producer": "Bengt Forslund, Producer"
+                },
+                {
+                    "winner": true,
+                    "movie_title": "The Godfather",
+                    "producer": "Albert S. Ruddy, Producer"
+                },
+                {
+                    "movie_title": "Sounder",
+                    "producer": "Robert B. Radnitz, Producer"
+                }
+            ]
+        },
+        {
+            "year": "1973",
+            "movies": [
+                {
+                    "movie_title": "American Graffiti",
+                    "producer": "Francis Ford Coppola, Producer; Gary Kurtz, Co-Producer"
+                },
+                {
+                    "movie_title": "Cries and Whispers",
+                    "producer": "Ingmar Bergman, Producer"
+                },
+                {
+                    "movie_title": "The Exorcist",
+                    "producer": "William Peter Blatty, Producer"
+                },
+                {
+                    "winner": true,
+                    "movie_title": "The Sting",
+                    "producer": "Tony Bill, Michael Phillips and Julia Phillips, Producers"
+                },
+                {
+                    "movie_title": "A Touch of Class",
+                    "producer": "Melvin Frank, Producer"
+                }
+            ]
+        },
+        {
+            "year": "1974",
+            "movies": [
+                {
+                    "movie_title": "Chinatown",
+                    "producer": "Robert Evans, Producer"
+                },
+                {
+                    "movie_title": "The Conversation",
+                    "producer": "Francis Ford Coppola, Producer; Fred Roos, Co-Producer"
+                },
+                {
+                    "winner": true,
+                    "movie_title": "The Godfather Part II",
+                    "producer": "Francis Ford Coppola, Producer; Gray Frederickson and Fred Roos, Co-Producers"
+                },
+                {
+                    "movie_title": "Lenny",
+                    "producer": "Marvin Worth, Producer"
+                },
+                {
+                    "movie_title": "The Towering Inferno",
+                    "producer": "Irwin Allen, Producer"
+                }
+            ]
+        },
+        {
+            "year": "1975",
+            "movies": [
+                {
+                    "movie_title": "Barry Lyndon",
+                    "producer": "Stanley Kubrick, Producer"
+                },
+                {
+                    "movie_title": "Dog Day Afternoon",
+                    "producer": "Martin Bregman and Martin Elfand, Producers"
+                },
+                {
+                    "movie_title": "Jaws",
+                    "producer": "Richard D. Zanuck and David Brown, Producers"
+                },
+                {
+                    "movie_title": "Nashville",
+                    "producer": "Robert Altman, Producer"
+                },
+                {
+                    "winner": true,
+                    "movie_title": "One Flew over the Cuckoo's Nest",
+                    "producer": "Saul Zaentz and Michael Douglas, Producers"
+                }
+            ]
+        },
+        {
+            "year": "1976",
+            "movies": [
+                {
+                    "movie_title": "All the President's Men",
+                    "producer": "Walter Coblenz, Producer"
+                },
+                {
+                    "movie_title": "Bound for Glory",
+                    "producer": "Robert F. Blumofe and Harold Leventhal, Producers"
+                },
+                {
+                    "movie_title": "Network",
+                    "producer": "Howard Gottfried, Producer"
+                },
+                {
+                    "winner": true,
+                    "movie_title": "Rocky",
+                    "producer": "Irwin Winkler and Robert Chartoff, Producers"
+                },
+                {
+                    "movie_title": "Taxi Driver",
+                    "producer": "Michael Phillips and Julia Phillips, Producers"
+                }
+            ]
+        },
+        {
+            "year": "1977",
+            "movies": [
+                {
+                    "winner": true,
+                    "movie_title": "Annie Hall",
+                    "producer": "Charles H. Joffe, Producer"
+                },
+                {
+                    "movie_title": "The Goodbye Girl",
+                    "producer": "Ray Stark, Producer"
+                },
+                {
+                    "movie_title": "Julia",
+                    "producer": "Richard Roth, Producer"
+                },
+                {
+                    "movie_title": "Star Wars",
+                    "producer": "Gary Kurtz, Producer"
+                },
+                {
+                    "movie_title": "The Turning Point",
+                    "producer": "Herbert Ross and Arthur Laurents, Producers"
+                }
+            ]
+        },
+        {
+            "year": "1978",
+            "movies": [
+                {
+                    "movie_title": "Coming Home",
+                    "producer": "Jerome Hellman, Producer"
+                },
+                {
+                    "winner": true,
+                    "movie_title": "The Deer Hunter",
+                    "producer": "Barry Spikings, Michael Deeley, Michael Cimino and John Peverall, Producers"
+                },
+                {
+                    "movie_title": "Heaven Can Wait",
+                    "producer": "Warren Beatty, Producer"
+                },
+                {
+                    "movie_title": "Midnight Express",
+                    "producer": "Alan Marshall and David Puttnam, Producers"
+                },
+                {
+                    "movie_title": "An Unmarried Woman",
+                    "producer": "Paul Mazursky and Tony Ray, Producers"
+                }
+            ]
+        },
+        {
+            "year": "1979",
+            "movies": [
+                {
+                    "movie_title": "All That Jazz",
+                    "producer": "Robert Alan Aurthur, Producer"
+                },
+                {
+                    "movie_title": "Apocalypse Now",
+                    "producer": "Francis Coppola, Producer; Fred Roos, Gray Frederickson and Tom Sternberg, Co-Producers"
+                },
+                {
+                    "movie_title": "Breaking Away",
+                    "producer": "Peter Yates, Producer"
+                },
+                {
+                    "winner": true,
+                    "movie_title": "Kramer vs. Kramer",
+                    "producer": "Stanley R. Jaffe, Producer"
+                },
+                {
+                    "movie_title": "Norma Rae",
+                    "producer": "Tamara Asseyev and Alex Rose, Producers"
+                }
+            ]
+        },
+        {
+            "year": "1980",
+            "movies": [
+                {
+                    "movie_title": "Coal Miner's Daughter",
+                    "producer": "Bernard Schwartz, Producer"
+                },
+                {
+                    "movie_title": "The Elephant Man",
+                    "producer": "Jonathan Sanger, Producer"
+                },
+                {
+                    "winner": true,
+                    "movie_title": "Ordinary People",
+                    "producer": "Ronald L. Schwary, Producer"
+                },
+                {
+                    "movie_title": "Raging Bull",
+                    "producer": "Irwin Winkler and Robert Chartoff, Producers"
+                },
+                {
+                    "movie_title": "Tess",
+                    "producer": "Claude Berri, Producer; Timothy Burrill, Co-Producer"
+                }
+            ]
+        },
+        {
+            "year": "1981",
+            "movies": [
+                {
+                    "movie_title": "Atlantic City",
+                    "producer": "Denis Heroux and John Kemeny, Producers"
+                },
+                {
+                    "winner": true,
+                    "movie_title": "Chariots of Fire",
+                    "producer": "David Puttnam, Producer"
+                },
+                {
+                    "movie_title": "On Golden Pond",
+                    "producer": "Bruce Gilbert, Producer"
+                },
+                {
+                    "movie_title": "Raiders of the Lost Ark",
+                    "producer": "Frank Marshall, Producer"
+                },
+                {
+                    "movie_title": "Reds",
+                    "producer": "Warren Beatty, Producer"
+                }
+            ]
+        },
+        {
+            "year": "1982",
+            "movies": [
+                {
+                    "movie_title": "E.T. The Extra-Terrestrial",
+                    "producer": "Steven Spielberg and Kathleen Kennedy, Producers"
+                },
+                {
+                    "winner": true,
+                    "movie_title": "Gandhi",
+                    "producer": "Richard Attenborough, Producer"
+                },
+                {
+                    "movie_title": "Missing",
+                    "producer": "Edward Lewis and Mildred Lewis, Producers"
+                },
+                {
+                    "movie_title": "Tootsie",
+                    "producer": "Sydney Pollack and Dick Richards, Producers"
+                },
+                {
+                    "movie_title": "The Verdict",
+                    "producer": "Richard D. Zanuck and David Brown, Producers"
+                }
+            ]
+        },
+        {
+            "year": "1983",
+            "movies": [
+                {
+                    "movie_title": "The Big Chill",
+                    "producer": "Michael Shamberg, Producer"
+                },
+                {
+                    "movie_title": "The Dresser",
+                    "producer": "Peter Yates, Producer"
+                },
+                {
+                    "movie_title": "The Right Stuff",
+                    "producer": "Irwin Winkler and Robert Chartoff, Producers"
+                },
+                {
+                    "movie_title": "Tender Mercies",
+                    "producer": "Philip S. Hobel, Producer"
+                },
+                {
+                    "winner": true,
+                    "movie_title": "Terms of Endearment",
+                    "producer": "James L. Brooks, Producer"
+                }
+            ]
+        },
+        {
+            "year": "1984",
+            "movies": [
+                {
+                    "winner": true,
+                    "movie_title": "Amadeus",
+                    "producer": "Saul Zaentz, Producer"
+                },
+                {
+                    "movie_title": "The Killing Fields",
+                    "producer": "David Puttnam, Producer"
+                },
+                {
+                    "movie_title": "A Passage to India",
+                    "producer": "John Brabourne and Richard Goodwin, Producers"
+                },
+                {
+                    "movie_title": "Places in the Heart",
+                    "producer": "Arlene Donovan, Producer"
+                },
+                {
+                    "movie_title": "A Soldier's Story",
+                    "producer": "Norman Jewison, Ronald L. Schwary and Patrick Palmer, Producers"
+                }
+            ]
+        },
+        {
+            "year": "1985",
+            "movies": [
+                {
+                    "movie_title": "The Color Purple",
+                    "producer": "Steven Spielberg, Kathleen Kennedy, Frank Marshall and Quincy Jones, Producers"
+                },
+                {
+                    "movie_title": "Kiss of the Spider Woman",
+                    "producer": "David Weisman, Producer"
+                },
+                {
+                    "winner": true,
+                    "movie_title": "Out of Africa",
+                    "producer": "Sydney Pollack, Producer"
+                },
+                {
+                    "movie_title": "Prizzi's Honor",
+                    "producer": "John Foreman, Producer"
+                },
+                {
+                    "movie_title": "Witness",
+                    "producer": "Edward S. Feldman, Producer"
+                }
+            ]
+        },
+        {
+            "year": "1986",
+            "movies": [
+                {
+                    "movie_title": "Children of a Lesser God",
+                    "producer": "Burt Sugarman and Patrick Palmer, Producers"
+                },
+                {
+                    "movie_title": "Hannah and Her Sisters",
+                    "producer": "Robert Greenhut, Producer"
+                },
+                {
+                    "movie_title": "The Mission",
+                    "producer": "Fernando Ghia and David Puttnam, Producers"
+                },
+                {
+                    "winner": true,
+                    "movie_title": "Platoon",
+                    "producer": "Arnold Kopelson, Producer"
+                },
+                {
+                    "movie_title": "A Room with a View",
+                    "producer": "Ismail Merchant, Producer"
+                }
+            ]
+        },
+        {
+            "year": "1987",
+            "movies": [
+                {
+                    "movie_title": "Broadcast News",
+                    "producer": "James L. Brooks, Producer"
+                },
+                {
+                    "movie_title": "Fatal Attraction",
+                    "producer": "Stanley R. Jaffe and Sherry Lansing, Producers"
+                },
+                {
+                    "movie_title": "Hope and Glory",
+                    "producer": "John Boorman, Producer"
+                },
+                {
+                    "winner": true,
+                    "movie_title": "The Last Emperor",
+                    "producer": "Jeremy Thomas, Producer"
+                },
+                {
+                    "movie_title": "Moonstruck",
+                    "producer": "Patrick Palmer and Norman Jewison, Producers"
+                }
+            ]
+        },
+        {
+            "year": "1988",
+            "movies": [
+                {
+                    "movie_title": "The Accidental Tourist",
+                    "producer": "Lawrence Kasdan, Charles Okun and Michael Grillo, Producers"
+                },
+                {
+                    "movie_title": "Dangerous Liaisons",
+                    "producer": "Norma Heyman and Hank Moonjean, Producers"
+                },
+                {
+                    "movie_title": "Mississippi Burning",
+                    "producer": "Frederick Zollo and Robert F. Colesberry, Producers"
+                },
+                {
+                    "winner": true,
+                    "movie_title": "Rain Man",
+                    "producer": "Mark Johnson, Producer"
+                },
+                {
+                    "movie_title": "Working Girl",
+                    "producer": "Douglas Wick, Producer"
+                }
+            ]
+        },
+        {
+            "year": "1989",
+            "movies": [
+                {
+                    "movie_title": "Born on the Fourth of July",
+                    "producer": "A. Kitman Ho and Oliver Stone, Producers"
+                },
+                {
+                    "movie_title": "Dead Poets Society",
+                    "producer": "Steven Haft, Paul Junger Witt and Tony Thomas, Producers"
+                },
+                {
+                    "winner": true,
+                    "movie_title": "Driving Miss Daisy",
+                    "producer": "Richard D. Zanuck and Lili Fini Zanuck, Producers"
+                },
+                {
+                    "movie_title": "Field of Dreams",
+                    "producer": "Lawrence Gordon and Charles Gordon, Producers"
+                },
+                {
+                    "movie_title": "My Left Foot",
+                    "producer": "Noel Pearson, Producer"
+                }
+            ]
+        },
+        {
+            "year": "1990",
+            "movies": [
+                {
+                    "movie_title": "Awakenings",
+                    "producer": "Walter F. Parkes and Lawrence Lasker, Producers"
+                },
+                {
+                    "winner": true,
+                    "movie_title": "Dances With Wolves",
+                    "producer": "Jim Wilson and Kevin Costner, Producers"
+                },
+                {
+                    "movie_title": "Ghost",
+                    "producer": "Lisa Weinstein, Producer"
+                },
+                {
+                    "movie_title": "The Godfather, Part III",
+                    "producer": "Francis Ford Coppola, Producer"
+                },
+                {
+                    "movie_title": "Good Fellas",
+                    "producer": "Irwin Winkler, Producer"
+                }
+            ]
+        },
+        {
+            "year": "1991",
+            "movies": [
+                {
+                    "movie_title": "Beauty and the Beast",
+                    "producer": "Don Hahn, Producer"
+                },
+                {
+                    "movie_title": "Bugsy",
+                    "producer": "Mark Johnson, Barry Levinson and Warren Beatty, Producers"
+                },
+                {
+                    "movie_title": "JFK",
+                    "producer": "A. Kitman Ho and Oliver Stone, Producers"
+                },
+                {
+                    "movie_title": "The Prince of Tides",
+                    "producer": "Barbra Streisand and Andrew Karsch, Producers"
+                },
+                {
+                    "winner": true,
+                    "movie_title": "The Silence of the Lambs",
+                    "producer": "Edward Saxon, Kenneth Utt and Ron Bozman, Producers"
+                }
+            ]
+        },
+        {
+            "year": "1992",
+            "movies": [
+                {
+                    "movie_title": "The Crying Game",
+                    "producer": "Stephen Woolley, Producer"
+                },
+                {
+                    "movie_title": "A Few Good Men",
+                    "producer": "David Brown, Rob Reiner and Andrew Scheinman, Producers"
+                },
+                {
+                    "movie_title": "Howards End",
+                    "producer": "Ismail Merchant, Producer"
+                },
+                {
+                    "movie_title": "Scent of a Woman",
+                    "producer": "Martin Brest, Producer"
+                },
+                {
+                    "winner": true,
+                    "movie_title": "Unforgiven",
+                    "producer": "Clint Eastwood, Producer"
+                }
+            ]
+        },
+        {
+            "year": "1993",
+            "movies": [
+                {
+                    "movie_title": "The Fugitive",
+                    "producer": "Arnold Kopelson, Producer"
+                },
+                {
+                    "movie_title": "In the Name of the Father",
+                    "producer": "Jim Sheridan, Producer"
+                },
+                {
+                    "movie_title": "The Piano",
+                    "producer": "Jan Chapman, Producer"
+                },
+                {
+                    "movie_title": "The Remains of the Day",
+                    "producer": "Mike Nichols, John Calley and Ismail Merchant, Producers"
+                },
+                {
+                    "winner": true,
+                    "movie_title": "Schindler's List",
+                    "producer": "Steven Spielberg, Gerald R. Molen and Branko Lustig, Producers"
+                }
+            ]
+        },
+        {
+            "year": "1994",
+            "movies": [
+                {
+                    "winner": true,
+                    "movie_title": "Forrest Gump",
+                    "producer": "Wendy Finerman, Steve Tisch and Steve Starkey, Producers"
+                },
+                {
+                    "movie_title": "Four Weddings and a Funeral",
+                    "producer": "Duncan Kenworthy, Producer"
+                },
+                {
+                    "movie_title": "Pulp Fiction",
+                    "producer": "Lawrence Bender, Producer"
+                },
+                {
+                    "movie_title": "Quiz Show",
+                    "producer": "Robert Redford, Michael Jacobs, Julian Krainin and Michael Nozik, Producers"
+                },
+                {
+                    "movie_title": "The Shawshank Redemption",
+                    "producer": "Niki Marvin, Producer"
+                }
+            ]
+        },
+        {
+            "year": "1995",
+            "movies": [
+                {
+                    "movie_title": "Apollo 13",
+                    "producer": "Brian Grazer, Producer"
+                },
+                {
+                    "movie_title": "Babe",
+                    "producer": "George Miller, Doug Mitchell and Bill Miller, Producers"
+                },
+                {
+                    "winner": true,
+                    "movie_title": "Braveheart",
+                    "producer": "Mel Gibson, Alan Ladd, Jr. and Bruce Davey, Producers"
+                },
+                {
+                    "movie_title": "The Postman (Il Postino)",
+                    "producer": "Mario Cecchi Gori, Vittorio Cecchi Gori and Gaetano Daniele, Producers"
+                },
+                {
+                    "movie_title": "Sense and Sensibility",
+                    "producer": "Lindsay Doran, Producer"
+                }
+            ]
+        },
+        {
+            "year": "1996",
+            "movies": [
+                {
+                    "winner": true,
+                    "movie_title": "The English Patient",
+                    "producer": "Saul Zaentz, Producer"
+                },
+                {
+                    "movie_title": "Fargo",
+                    "producer": "Ethan Coen, Producer"
+                },
+                {
+                    "movie_title": "Jerry Maguire",
+                    "producer": "James L. Brooks, Laurence Mark, Richard Sakai and Cameron Crowe, Producers"
+                },
+                {
+                    "movie_title": "Secrets & Lies",
+                    "producer": "Simon Channing-Williams, Producer"
+                },
+                {
+                    "movie_title": "Shine",
+                    "producer": "Jane Scott, Producer"
+                }
+            ]
+        },
+        {
+            "year": "1997",
+            "movies": [
+                {
+                    "movie_title": "As Good as It Gets",
+                    "producer": "James L. Brooks, Bridget Johnson and Kristi Zea, Producers"
+                },
+                {
+                    "movie_title": "The Full Monty",
+                    "producer": "Uberto Pasolini, Producer"
+                },
+                {
+                    "movie_title": "Good Will Hunting",
+                    "producer": "Lawrence Bender, Producer"
+                },
+                {
+                    "movie_title": "L.A. Confidential",
+                    "producer": "Arnon Milchan, Curtis Hanson and Michael Nathanson, Producers"
+                },
+                {
+                    "winner": true,
+                    "movie_title": "Titanic",
+                    "producer": "James Cameron and Jon Landau, Producers"
+                }
+            ]
+        },
+        {
+            "year": "1998",
+            "movies": [
+                {
+                    "movie_title": "Elizabeth",
+                    "producer": "Alison Owen, Eric Fellner and Tim Bevan, Producers"
+                },
+                {
+                    "movie_title": "Life Is Beautiful",
+                    "producer": "Elda Ferri and Gianluigi Braschi, Producers"
+                },
+                {
+                    "movie_title": "Saving Private Ryan",
+                    "producer": "Steven Spielberg, Ian Bryce, Mark Gordon and Gary Levinsohn, Producers"
+                },
+                {
+                    "winner": true,
+                    "movie_title": "Shakespeare in Love",
+                    "producer": "David Parfitt, Donna Gigliotti, Harvey Weinstein, Edward Zwick and Marc Norman, Producers"
+                },
+                {
+                    "movie_title": "The Thin Red Line",
+                    "producer": "Robert Michael Geisler, John Roberdeau and Grant Hill, Producers"
+                }
+            ]
+        },
+        {
+            "year": "1999",
+            "movies": [
+                {
+                    "winner": true,
+                    "movie_title": "American Beauty",
+                    "producer": "Bruce Cohen and Dan Jinks, Producers"
+                },
+                {
+                    "movie_title": "The Cider House Rules",
+                    "producer": "Richard N. Gladstein, Producer"
+                },
+                {
+                    "movie_title": "The Green Mile",
+                    "producer": "David Valdes and Frank Darabont, Producers"
+                },
+                {
+                    "movie_title": "The Insider",
+                    "producer": "Michael Mann and Pieter Jan Brugge, Producers"
+                },
+                {
+                    "movie_title": "The Sixth Sense",
+                    "producer": "Frank Marshall, Kathleen Kennedy and Barry Mendel, Producers"
+                }
+            ]
+        },
+        {
+            "year": "2000",
+            "movies": [
+                {
+                    "movie_title": "Chocolat",
+                    "producer": "David Brown, Kit Golden and Leslie Holleran, Producers"
+                },
+                {
+                    "movie_title": "Crouching Tiger, Hidden Dragon",
+                    "producer": "Bill Kong, Hsu Li Kong and Ang Lee, Producers"
+                },
+                {
+                    "movie_title": "Erin Brockovich",
+                    "producer": "Danny DeVito, Michael Shamberg and Stacey Sher, Producers"
+                },
+                {
+                    "winner": true,
+                    "movie_title": "Gladiator",
+                    "producer": "Douglas Wick, David Franzoni and Branko Lustig, Producers"
+                },
+                {
+                    "movie_title": "Traffic",
+                    "producer": "Edward Zwick, Marshall Herskovitz and Laura Bickford, Producers"
+                }
+            ]
+        },
+        {
+            "year": "2001",
+            "movies": [
+                {
+                    "winner": true,
+                    "movie_title": "A Beautiful Mind",
+                    "producer": "Brian Grazer and Ron Howard, Producers"
+                },
+                {
+                    "movie_title": "Gosford Park",
+                    "producer": "Robert Altman, Bob Balaban and David Levy, Producers"
+                },
+                {
+                    "movie_title": "In the Bedroom",
+                    "producer": "Graham Leader, Ross Katz and Todd Field, Producers"
+                },
+                {
+                    "movie_title": "The Lord of the Rings: The Fellowship of the Ring",
+                    "producer": "Peter Jackson, Fran Walsh and Barrie M. Osborne, Producers"
+                },
+                {
+                    "movie_title": "Moulin Rouge",
+                    "producer": "Martin Brown, Baz Luhrmann and Fred Baron, Producers"
+                }
+            ]
+        },
+        {
+            "year": "2002",
+            "movies": [
+                {
+                    "winner": true,
+                    "movie_title": "Chicago",
+                    "producer": "Martin Richards, Producer"
+                },
+                {
+                    "movie_title": "Gangs of New York",
+                    "producer": "Alberto Grimaldi and Harvey Weinstein, Producers"
+                },
+                {
+                    "movie_title": "The Hours",
+                    "producer": "Scott Rudin and Robert Fox, Producers"
+                },
+                {
+                    "movie_title": "The Lord of the Rings: The Two Towers",
+                    "producer": "Barrie M. Osborne, Fran Walsh and Peter Jackson, Producers"
+                },
+                {
+                    "movie_title": "The Pianist",
+                    "producer": "Roman Polanski, Robert Benmussa and Alain Sarde, Producers"
+                }
+            ]
+        },
+        {
+            "year": "2003",
+            "movies": [
+                {
+                    "winner": true,
+                    "movie_title": "The Lord of the Rings: The Return of the King",
+                    "producer": "Barrie M. Osborne, Peter Jackson and Fran Walsh, Producers"
+                },
+                {
+                    "movie_title": "Lost in Translation",
+                    "producer": "Ross Katz and Sofia Coppola, Producers"
+                },
+                {
+                    "movie_title": "Master and Commander: The Far Side of the World",
+                    "producer": "Samuel Goldwyn, Jr., Peter Weir and Duncan Henderson, Producers"
+                },
+                {
+                    "movie_title": "Mystic River",
+                    "producer": "Robert Lorenz, Judie G. Hoyt and Clint Eastwood, Producers"
+                },
+                {
+                    "movie_title": "Seabiscuit",
+                    "producer": "Kathleen Kennedy, Frank Marshall and Gary Ross, Producers"
+                }
+            ]
+        },
+        {
+            "year": "2004",
+            "movies": [
+                {
+                    "movie_title": "The Aviator",
+                    "producer": "Michael Mann and Graham King, Producers"
+                },
+                {
+                    "movie_title": "Finding Neverland",
+                    "producer": "Richard N. Gladstein and Nellie Bellflower, Producers"
+                },
+                {
+                    "winner": true,
+                    "movie_title": "Million Dollar Baby",
+                    "producer": "Clint Eastwood, Albert S. Ruddy and Tom Rosenberg, Producers"
+                },
+                {
+                    "movie_title": "Ray",
+                    "producer": "Taylor Hackford, Stuart Benjamin and Howard Baldwin, Producers"
+                },
+                {
+                    "movie_title": "Sideways",
+                    "producer": "Michael London, Producer"
+                }
+            ]
+        },
+        {
+            "year": "2005",
+            "movies": [
+                {
+                    "movie_title": "Brokeback Mountain",
+                    "producer": "Diana Ossana and James Schamus, Producers"
+                },
+                {
+                    "movie_title": "Capote",
+                    "producer": "Caroline Baron, William Vince and Michael Ohoven, Producers"
+                },
+                {
+                    "winner": true,
+                    "movie_title": "Crash",
+                    "producer": "Paul Haggis and Cathy Schulman, Producers"
+                },
+                {
+                    "movie_title": "Good Night, and Good Luck.",
+                    "producer": "Grant Heslov, Producer"
+                },
+                {
+                    "movie_title": "Munich",
+                    "producer": "Kathleen Kennedy, Steven Spielberg and Barry Mendel, Producers"
+                }
+            ]
+        },
+        {
+            "year": "2006",
+            "movies": [
+                {
+                    "movie_title": "Babel",
+                    "producer": "Alejandro González Iñárritu, Jon Kilik and Steve Golin, Producers"
+                },
+                {
+                    "winner": true,
+                    "movie_title": "The Departed",
+                    "producer": "Graham King, Producer"
+                },
+                {
+                    "movie_title": "Letters from Iwo Jima",
+                    "producer": "Clint Eastwood, Steven Spielberg and Robert Lorenz, Producers"
+                },
+                {
+                    "movie_title": "Little Miss Sunshine",
+                    "producer": "David T. Friendly, Peter Saraf and Marc Turtletaub, Producers"
+                },
+                {
+                    "movie_title": "The Queen",
+                    "producer": "Andy Harries, Christine Langan and Tracey Seaward, Producers"
+                }
+            ]
+        },
+        {
+            "year": "2007",
+            "movies": [
+                {
+                    "movie_title": "Atonement",
+                    "producer": "Tim Bevan, Eric Fellner and Paul Webster, Producers"
+                },
+                {
+                    "movie_title": "Juno",
+                    "producer": "Lianne Halfon, Mason Novick and Russell Smith, Producers"
+                },
+                {
+                    "movie_title": "Michael Clayton",
+                    "producer": "Sydney Pollack, Jennifer Fox and Kerry Orent, Producers"
+                },
+                {
+                    "winner": true,
+                    "movie_title": "No Country for Old Men",
+                    "producer": "Scott Rudin, Ethan Coen and Joel Coen, Producers"
+                },
+                {
+                    "movie_title": "There Will Be Blood",
+                    "producer": "JoAnne Sellar, Paul Thomas Anderson and Daniel Lupi, Producers"
+                }
+            ]
+        },
+        {
+            "year": "2008",
+            "movies": [
+                {
+                    "movie_title": "The Curious Case of Benjamin Button",
+                    "producer": "Kathleen Kennedy, Frank Marshall and Ceán Chaffin, Producers"
+                },
+                {
+                    "movie_title": "Frost/Nixon",
+                    "producer": "Brian Grazer, Ron Howard and Eric Fellner, Producers"
+                },
+                {
+                    "movie_title": "Milk",
+                    "producer": "Dan Jinks and Bruce Cohen, Producers"
+                },
+                {
+                    "movie_title": "The Reader",
+                    "producer": "Anthony Minghella, Sydney Pollack, Donna Gigliotti and Redmond Morris, Producers"
+                },
+                {
+                    "winner": true,
+                    "movie_title": "Slumdog Millionaire",
+                    "producer": "Christian Colson, Producer"
+                }
+            ]
+        },
+        {
+            "year": "2009",
+            "movies": [
+                {
+                    "movie_title": "Avatar",
+                    "producer": "James Cameron and Jon Landau, Producers"
+                },
+                {
+                    "movie_title": "The Blind Side",
+                    "producer": "Gil Netter, Andrew A. Kosove and Broderick Johnson, Producers"
+                },
+                {
+                    "movie_title": "District 9",
+                    "producer": "Peter Jackson and Carolynne Cunningham, Producers"
+                },
+                {
+                    "movie_title": "An Education",
+                    "producer": "Finola Dwyer and Amanda Posey, Producers"
+                },
+                {
+                    "winner": true,
+                    "movie_title": "The Hurt Locker",
+                    "producer": "Kathryn Bigelow, Mark Boal, Nicolas Chartier and Greg Shapiro, Producers"
+                },
+                {
+                    "movie_title": "Inglourious Basterds",
+                    "producer": "Lawrence Bender, Producer"
+                },
+                {
+                    "movie_title": "Precious: Based on the Novel 'Push' by Sapphire",
+                    "producer": "Lee Daniels, Sarah Siegel-Magness and Gary Magness, Producers"
+                },
+                {
+                    "movie_title": "A Serious Man",
+                    "producer": "Joel Coen and Ethan Coen, Producers"
+                },
+                {
+                    "movie_title": "Up",
+                    "producer": "Jonas Rivera, Producer"
+                },
+                {
+                    "movie_title": "Up in the Air",
+                    "producer": "Daniel Dubiecki, Ivan Reitman and Jason Reitman, Producers"
+                }
+            ]
+        },
+        {
+            "year": "2010",
+            "movies": [
+                {
+                    "movie_title": "Black Swan",
+                    "producer": "Mike Medavoy, Brian Oliver and Scott Franklin, Producers"
+                },
+                {
+                    "movie_title": "The Fighter",
+                    "producer": "David Hoberman, Todd Lieberman and Mark Wahlberg, Producers"
+                },
+                {
+                    "movie_title": "Inception",
+                    "producer": "Emma Thomas and Christopher Nolan, Producers"
+                },
+                {
+                    "movie_title": "The Kids Are All Right",
+                    "producer": "Gary Gilbert, Jeffrey Levy-Hinte and Celine Rattray, Producers"
+                },
+                {
+                    "winner": true,
+                    "movie_title": "The King's Speech",
+                    "producer": "Iain Canning, Emile Sherman and Gareth Unwin, Producers"
+                },
+                {
+                    "movie_title": "127 Hours",
+                    "producer": "Christian Colson, Danny Boyle and John Smithson, Producers"
+                },
+                {
+                    "movie_title": "The Social Network",
+                    "producer": "Scott Rudin, Dana Brunetti, Michael De Luca and Ceán Chaffin, Producers"
+                },
+                {
+                    "movie_title": "Toy Story 3",
+                    "producer": "Darla K. Anderson, Producer"
+                },
+                {
+                    "movie_title": "True Grit",
+                    "producer": "Scott Rudin, Ethan Coen and Joel Coen, Producers"
+                },
+                {
+                    "movie_title": "Winter's Bone",
+                    "producer": "Anne Rosellini and Alix Madigan-Yorkin, Producers"
+                }
+            ]
+        },
+        {
+            "year": "2011",
+            "movies": [
+                {
+                    "winner": true,
+                    "movie_title": "The Artist",
+                    "producer": "Thomas Langmann, Producer"
+                },
+                {
+                    "movie_title": "The Descendants",
+                    "producer": "Jim Burke, Alexander Payne and Jim Taylor, Producers"
+                },
+                {
+                    "movie_title": "Extremely Loud & Incredibly Close",
+                    "producer": "Scott Rudin, Producer"
+                },
+                {
+                    "movie_title": "The Help",
+                    "producer": "Brunson Green, Chris Columbus and Michael Barnathan, Producers"
+                },
+                {
+                    "movie_title": "Hugo",
+                    "producer": "Graham King and Martin Scorsese, Producers"
+                },
+                {
+                    "movie_title": "Midnight in Paris",
+                    "producer": "Letty Aronson and Stephen Tenenbaum, Producers"
+                },
+                {
+                    "movie_title": "Moneyball",
+                    "producer": "Michael De Luca, Rachael Horovitz and Brad Pitt, Producers"
+                },
+                {
+                    "movie_title": "The Tree of Life",
+                    "producer": "Sarah Green, Bill Pohlad, Dede Gardner and Grant Hill, Producers"
+                },
+                {
+                    "movie_title": "War Horse",
+                    "producer": "Steven Spielberg and Kathleen Kennedy, Producers"
+                }
+            ]
+        },
+        {
+            "year": "2012",
+            "movies": [
+                {
+                    "movie_title": "Amour",
+                    "producer": "Margaret Menegoz, Stefan Arndt, Veit Heiduschka and Michael Katz, Producers"
+                },
+                {
+                    "winner": true,
+                    "movie_title": "Argo",
+                    "producer": "Grant Heslov, Ben Affleck and George Clooney, Producers"
+                },
+                {
+                    "movie_title": "Beasts of the Southern Wild",
+                    "producer": "Dan Janvey, Josh Penn and Michael Gottwald, Producers"
+                },
+                {
+                    "movie_title": "Django Unchained",
+                    "producer": "Stacey Sher, Reginald Hudlin and Pilar Savone, Producers"
+                },
+                {
+                    "movie_title": "Les Misérables",
+                    "producer": "Tim Bevan, Eric Fellner, Debra Hayward and Cameron Mackintosh, Producers"
+                },
+                {
+                    "movie_title": "Life of Pi",
+                    "producer": "Gil Netter, Ang Lee and David Womark, Producers"
+                },
+                {
+                    "movie_title": "Lincoln",
+                    "producer": "Steven Spielberg and Kathleen Kennedy, Producers"
+                },
+                {
+                    "movie_title": "Silver Linings Playbook",
+                    "producer": "Donna Gigliotti, Bruce Cohen and Jonathan Gordon, Producers"
+                },
+                {
+                    "movie_title": "Zero Dark Thirty",
+                    "producer": "Mark Boal, Kathryn Bigelow and Megan Ellison, Producers"
+                }
+            ]
+        },
+        {
+            "year": "2013",
+            "movies": [
+                {
+                    "movie_title": "American Hustle",
+                    "producer": "Charles Roven, Richard Suckle, Megan Ellison and Jonathan Gordon, Producers"
+                },
+                {
+                    "movie_title": "Captain Phillips",
+                    "producer": "Scott Rudin, Dana Brunetti and Michael De Luca, Producers"
+                },
+                {
+                    "movie_title": "Dallas Buyers Club",
+                    "producer": "Robbie Brenner and Rachel Winter, Producers"
+                },
+                {
+                    "movie_title": "Gravity",
+                    "producer": "Alfonso Cuarón and David Heyman, Producers"
+                },
+                {
+                    "movie_title": "Her",
+                    "producer": "Megan Ellison, Spike Jonze and Vincent Landay, Producers"
+                },
+                {
+                    "movie_title": "Nebraska",
+                    "producer": "Albert Berger and Ron Yerxa, Producers"
+                },
+                {
+                    "movie_title": "Philomena",
+                    "producer": "Gabrielle Tana, Steve Coogan and Tracey Seaward, Producers"
+                },
+                {
+                    "winner": true,
+                    "movie_title": "12 Years a Slave",
+                    "producer": "Brad Pitt, Dede Gardner, Jeremy Kleiner, Steve McQueen and Anthony Katagas, Producers"
+                },
+                {
+                    "movie_title": "The Wolf of Wall Street",
+                    "producer": "Martin Scorsese, Leonardo DiCaprio, Joey McFarland and Emma Tillinger Koskoff, Producers"
+                }
+            ]
+        },
+        {
+            "year": "2014",
+            "movies": [
+                {
+                    "movie_title": "American Sniper",
+                    "producer": "Clint Eastwood, Robert Lorenz, Andrew Lazar, Bradley Cooper and Peter Morgan, Producers"
+                },
+                {
+                    "winner": true,
+                    "movie_title": "Birdman or (The Unexpected Virtue of Ignorance)",
+                    "producer": "Alejandro G. Iñárritu, John Lesher and James W. Skotchdopole, Producers"
+                },
+                {
+                    "movie_title": "Boyhood",
+                    "producer": "Richard Linklater and Cathleen Sutherland, Producers"
+                },
+                {
+                    "movie_title": "The Grand Budapest Hotel",
+                    "producer": "Wes Anderson, Scott Rudin, Steven Rales and Jeremy Dawson, Producers"
+                },
+                {
+                    "movie_title": "The Imitation Game",
+                    "producer": "Nora Grossman, Ido Ostrowsky and Teddy Schwarzman, Producers"
+                },
+                {
+                    "movie_title": "Selma",
+                    "producer": "Christian Colson, Oprah Winfrey, Dede Gardner and Jeremy Kleiner, Producers"
+                },
+                {
+                    "movie_title": "The Theory of Everything",
+                    "producer": "Tim Bevan, Eric Fellner, Lisa Bruce and Anthony McCarten, Producers"
+                },
+                {
+                    "movie_title": "Whiplash",
+                    "producer": "Jason Blum, Helen Estabrook and David Lancaster, Producers"
+                }
+            ]
+        }
+    ]
+}

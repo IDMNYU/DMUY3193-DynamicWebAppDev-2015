@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta charset="UTF-8"><title>Demo</title>
+
+<script src="./tmp__assetss_/jquery-1.10.2.js">
+</script>
+<script src="./tmp__assetss_/underscore-1.4.4.js">
+</script>
+<script src="./tmp__assetss_/application_bootstrap.js">
+</script>
+<script src="./tmp__assetss_/prototype_and_effects.js">
+</script>
+
+
+<div id="main" class="container">
+
+
+    <script>
+
+var process_set = {};
+var CONSOLE_LOG_DEBUG = true;
+
+
+var all_consumer_checkboxes = {
+    x597: [
+        '597', 
+        'add_consumer_to_action_set_' + '597', 
+        ''
+    ],
+    x210: [
+        '210', 
+        'add_consumer_to_action_set_' + '210', 
+        ''
+    ],
+    x822: [
+        '822', 
+        'add_consumer_to_action_set_' + '822', 
+        ''
+    ],
+    x721: [
+        '721', 
+        'add_consumer_to_action_set_' + '721', 
+        ''
+    ],
+};
+
+function process_consumer(consumer_id, action, reason, callback) {
+    if (CONSOLE_LOG_DEBUG) {
+        console.log('consumer_id: ' + consumer_id);
+    }
+    if (CONSOLE_LOG_DEBUG) {
+        console.log('action: ' + action);
+    }
+    reason = '';
+    
+    new Ajax.Request(
+    'http://localhost:8888/dumb_processor.php',
+    {
+        method: 'post',
+        parameters: {
+            json: 1,
+            status: action,
+            id: encodeURIComponent(consumer_id)
+        },
+        onSuccess: function(transport) {
+            if (CONSOLE_LOG_DEBUG) {
+                console.log('process_consumer - success');
+            }
+            if (CONSOLE_LOG_DEBUG) {
+                //console.log(transport);
+            }
+            var process_count = $('proc_set_len');
+            $('status_' + consumer_id).innerHTML = transport.responseJSON.status_text;
+            if (process_count) {
+                var result_count = parseInt(process_count.innerHTML);
+                if (result_count > 0) {
+                    process_count.innerHTML = result_count - 1;
+                }
+            }
+            $j('#add_consumer_to_action_set_' + consumer_id).prop('checked', false);
+            if (callback) {
+                if (CONSOLE_LOG_DEBUG) {
+                    console.log('calling back - successful!');
+                }
+                callback();
+            }
+        },
+        onFailure: function() {
+            //alert("Error");
+            if (callback) {
+                if (CONSOLE_LOG_DEBUG) {
+                    console.log('calling back - error ;_;');
+                }
+                callback();
+            }
+        }
+    }
+    );
+}
+
+function shift_process_set(consumer_id, src_id, reason, value) {
+    var pset = [consumer_id];
+    if (src_id != null ) {
+        pset.push(src_id);
+    }
+    if (reason != null ) {
+        pset.push(reason);
+        //if (CONSOLE_LOG_DEBUG) {  console.log('reason, ' + src_id + ', ' + reason); }
+    }
+    if ((value != null ) && (src_id != null )) {
+        value = value ? true : false;
+        $j('#' + src_id).prop('checked', value);
+    } else if (value == null ) {
+        if (CONSOLE_LOG_DEBUG) {
+            console.log('src_id: ' + src_id);
+        }
+        value = $j('#' + src_id).prop('checked');
+    }
+    //if (CONSOLE_LOG_DEBUG) {  console.log('check val, ' + src_id + ', ' + value); }
+    if (value) {
+        process_set[consumer_id] = pset;
+    } else {
+        delete (process_set[consumer_id]);
+    }
+    $j('#proc_set_len').html(_.keys(process_set).length);
+    console.log(_.keys(process_set).length + ' < ' + _.keys(all_consumer_checkboxes).length);
+    if (_.keys(process_set).length < _.keys(all_consumer_checkboxes).length) {
+        $j('#select_all_checkbox').prop('checked', false);
+    } else {
+        $j('#select_all_checkbox').prop('checked', true);
+    }
+}
+
+var execute_process_set = function(action, chained) {
+    $j('#select_all_checkbox').prop('checked', false);
+    keys = _.keys(process_set);
+    keys.reverse();
+    len = keys.length;
+    callback = false;
+    if (chained) {
+        callback = callback_execute_process_set(action);
+        len = 1;
+    }
+    for (i = 0; i < len; i++) {
+        ii = keys[i];
+        pset = process_set[ii];
+        delete (process_set[ii]);
+        if (CONSOLE_LOG_DEBUG) {
+            console.log('execute ' + action + ' for ' + pset[0]);
+        }
+        if (action == 'vetted') {
+            process_consumer(pset[0], 1, '', callback)
+        } 
+        else if (action == 'new') {
+            process_consumer(pset[0], 3, '', callback)
+        } 
+        else if (action == 'flagged') {
+            process_consumer(pset[0], 2, '', callback)
+        } 
+        else if (action == 'whitelisted') {
+            process_consumer(pset[0], 9, '', callback)
+        } 
+    }
+}
+;
+var callback_execute_process_set = function(action) {
+    return function() {
+        execute_process_set(action, true);
+    }
+}
+
+
+function process_set_act_all(value) {
+    if (CONSOLE_LOG_DEBUG) {
+        console.log('process_set_act_all');
+    }
+    keys = _.keys(all_consumer_checkboxes);
+    len = keys.length;
+    if (CONSOLE_LOG_DEBUG) {
+        console.log('adding ' + len + ' keys from checkboxes');
+    }
+    for (i = 0; i < len; i++) {
+        ii = keys[i];
+        consumer = all_consumer_checkboxes[ii];
+        if (CONSOLE_LOG_DEBUG) {
+            console.log(consumer);
+        }
+        shift_process_set(
+            consumer[0], // id
+            consumer[1], // checkbox
+            consumer[2], // reason 
+            value // bool
+        );
+    }
+}
+function process_set_select_all() {
+    process_set_act_all(true);
+}
+function process_set_unselect_all() {
+    process_set_act_all(false);
+}
+function process_set_toggle(checkbox) {
+    value = $j('input#' + checkbox).prop('checked');
+    if (value) {
+        process_set_select_all();
+    } else {
+        process_set_unselect_all();
+    }
+}
+</script>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+  <title>Tumblr Tool Demo app</title>
+</head>
+
+<body>
+  <h1 class="title">Tumblr Tool Demo app</h1>
+
+  <table class="table table-bordered table-striped" cellspacing="2" cellpadding="10" border="1">
+    <tbody>
+      <tr>
+        <td class="actions">En-masse action on <span id=
+        "proc_set_len">0</span>&nbsp;apps:</td>
+
+        <td class="actions"><button type="button" id="button_SET_V" onclick=
+        "execute_process_set('vetted',true);" class="btn btn-mini">Status:
+        Vetted</button></td>
+
+        <td class="actions"><button type="button" id="button_SET_F" onclick=
+        "execute_process_set('flagged',true);" class="btn btn-mini">Status:
+        Flagged</button></td>
+
+        <td class="actions"><button type="button" id="button_SET_N" onclick=
+        "execute_process_set('new',true);" class="btn btn-mini">Status: New</button></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <table border="1" class="table table-bordered table-striped"  cellspacing="2" cellpadding="10" >
+    <thead>
+      <tr>
+        <th><input type="checkbox" onclick="process_set_toggle('select_all_checkbox')"
+        id="select_all_checkbox" /></th>
+
+        <th data-sortable="true" class="header">Name and description</th>
+
+        <th data-sortable="true" class="header">Status</th>
+
+        <th>Actions</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr id="row_597">
+        <td><input type="checkbox" id="add_consumer_to_action_set_597" name=
+        "n_add_consumer_to_action_set_597" onclick=
+        "shift_process_set('597','add_consumer_to_action_set_' + '597','');" /></td>
+
+        <td>
+          <a href="foo" target="_blank" id="app_name" name=
+          "app_name">Widgets.Mu Tumblr Blog</a>
+
+          <div style="font-size: 11px;">
+            Adobe Muse Widget
+          </div>
+        </td>
+
+        <td style="width:50px">
+          <p id="status_597">new</p>
+        </td>
+
+        <td>
+          <table>
+            <tbody>
+              
+              <tr>
+
+                <td class="actions"><button type="button" id="button_status_new_597"
+                onclick="process_consumer(597, 3);" class="btn btn-mini">Set as
+                New</button></td>
+
+                <td class="actions"><button type="button" id=
+                "button_status_vetted_597" onclick="process_consumer(597, 1);"
+                class="btn btn-mini">Set as Vetted</button></td>
+
+                <td class="actions"><button type="button" id=
+                "button_status_flagged_597" onclick="process_consumer('597', 2);"
+                class="btn btn-mini">Set as Flagged</button></td>
+              </tr>
+            </tbody>
+          </table>
+        </td>
+      </tr>
+
+      <tr id="row_210">
+        <td><input type="checkbox" id="add_consumer_to_action_set_210" name=
+        "n_add_consumer_to_action_set_210" onclick=
+        "shift_process_set('210','add_consumer_to_action_set_' + '210','');" /></td>
+
+        <td>
+          <a href="https://github.com/trinhrau" target="_blank" id="app_name" name=
+          "app_name">dungnguatl</a>
+
+          <div style="font-size: 11px;">
+            application to test
+          </div>
+        </td>
+
+
+        <td style="width:50px">
+          <p id="status_210">new</p>
+        </td>
+
+        <td>
+          <table>
+            <tbody>
+              
+
+              <tr>
+
+                <td class="actions"><button type="button" id="button_status_new_210"
+                onclick="process_consumer(210, 3);" class="btn btn-mini">Set as
+                New</button></td>
+
+                <td class="actions"><button type="button" id=
+                "button_status_vetted_210" onclick="process_consumer(210, 1);"
+                class="btn btn-mini">Set as Vetted</button></td>
+
+                <td class="actions"><button type="button" id=
+                "button_status_flagged_210" onclick="process_consumer('210', 2);"
+                class="btn btn-mini">Set as Flagged</button></td>
+              </tr>
+            </tbody>
+          </table>
+        </td>
+      </tr>
+
+      <tr id="row_822">
+        <td><input type="checkbox" id="add_consumer_to_action_set_822" name=
+        "n_add_consumer_to_action_set_822" onclick=
+        "shift_process_set('822','add_consumer_to_action_set_' + '822','');" /></td>
+
+        <td>
+          <a href="https://www.castlehillfitness.com/blog" target="_blank" id="app_name"
+          name="app_name">Blog</a>
+
+          <div style="font-size: 11px;">
+            Healthy Mind, Healthy Body, Healthy You!
+          </div>
+        </td>
+
+        
+
+        <td style="width:50px">
+          <p id="status_822">new</p>
+        </td>
+
+        <td>
+          <table>
+            <tbody>
+              
+
+              <tr>
+
+                <td class="actions"><button type="button" id="button_status_new_822"
+                onclick="process_consumer(822, 3);" class="btn btn-mini">Set as
+                New</button></td>
+
+                <td class="actions"><button type="button" id=
+                "button_status_vetted_822" onclick="process_consumer(822, 1);"
+                class="btn btn-mini">Set as Vetted</button></td>
+
+                <td class="actions"><button type="button" id=
+                "button_status_flagged_822" onclick="process_consumer('822', 2);"
+                class="btn btn-mini">Set as Flagged</button></td>
+              </tr>
+            </tbody>
+          </table>
+        </td>
+      </tr>
+
+      <tr><td colspan="4">... 500 more rows</td></tr>
+
+      <tr id="row_721">
+        <td><input type="checkbox" id="add_consumer_to_action_set_721" name=
+        "n_add_consumer_to_action_set_721" onclick=
+        "shift_process_set('721','add_consumer_to_action_set_' + '721','');" /></td>
+
+        <td>
+          <a href="https://www.protectinternetfreedom.com/" target="_blank" id="app_name"
+          name="app_name">Protect Internet Freedom</a>
+
+          <div style="font-size: 11px;">
+            Importing Tumblr Posts to Wordpress
+          </div>
+        </td>
+
+       
+
+        <td style="width:50px">
+          <p id="status_721">new</p>
+        </td>
+
+        <td>
+          <table>
+            <tbody>
+              <tr>
+
+                <td class="actions"><button type="button" id="button_status_new_721"
+                onclick="process_consumer(721, 3);" class="btn btn-mini">Set as
+                New</button></td>
+
+                <td class="actions"><button type="button" id=
+                "button_status_vetted_721" onclick="process_consumer(721, 1);"
+                class="btn btn-mini">Set as Vetted</button></td>
+
+                <td class="actions"><button type="button" id=
+                "button_status_flagged_721" onclick="process_consumer('721', 2);"
+                class="btn btn-mini">Set as Flagged</button></td>
+              </tr>
+            </tbody>
+          </table>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+
+
+
+</body>
+</html>

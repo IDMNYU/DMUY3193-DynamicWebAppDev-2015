@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8"/>
+  <title>Book List</title>
+ </head>
+<body>
+
+<h1>My Book List</h1>
+
+<script src="http://localhost:8888/data2.js"></script>
+
+<script>
+    
+var someValue = location.hash;
+someValue = someValue.substr(1);
+console.log('hash val: ' + someValue);
+var index = {};
+for (var i = 0; i < books.length; i++) {
+  index[books[i].book_type] = true;
+  if (someValue == books[i].book_type) {
+    var bookP = document.createElement('p');
+    var bookDescription = document.createTextNode(books[i].title + ' by ' + books[i].author + ', ' + books[i].description + ', ' + books[i].book_type);
+    bookP.appendChild(bookDescription);
+    document.body.appendChild(bookP);
+  }
+}
+
+//document.body.appendChild(bookList);
+</script>
+
+<script>
+  for (j in index) {
+    console.log(j);
+    var link = document.createElement('a');
+    link.href = "./booklist2.html#" + j;
+//    link.onClick = function() {location.reload};
+    var linkValue = document.createTextNode(j);
+    link.appendChild(linkValue);
+    document.body.appendChild(link);
+    document.body.appendChild(document.createElement('br'));
+  }
+</script>
+
+<!--
+<a href="./booklist2.html#childrens">Childrens Books</a><br/>
+<a href="./booklist2.html#textbook">Textbooks</a><br/>
+<a href="./booklist2.html#novel">Novels</a><br/>
+-->
+
+</body>
+</html>
