@@ -1,0 +1,236 @@
+<html>
+<head>
+	<title>The Oscars Through Time</title>
+	<script src="./jquery-1.11.3.min.js"></script>
+	<style>
+		body {
+			background-color:#eeb;
+		}
+        
+        .clicked{
+            text-decoration: none;
+            color:gray;
+        }
+        
+        .clicked:active{
+            color:gray;
+        }
+        
+        .clicked:hover{
+            cursor:default;
+        }
+	</style>
+</head>
+<body>
+	<h1>The Oscars Through Time</h1>
+	<div>Score: <span id="scorex"></span></div>
+	<div id="container"></div>
+	<script>
+
+		var myDataBeachhead = {};
+
+		var allQuestions = {};
+		var currentQuestions = [];
+		var numberOfQuestions = 4;
+		var totalScore = 0;
+		var currentScore = 0;
+
+		/*
+		function processJson(jsonObj, callbackFunc) {
+			var processReturn = null;
+			for (var i = 0; i < jsonObj.length; i++) {
+				var ii = jsonObj[i];
+				callbackFunc(ii,);
+			}
+		}
+
+		function buildQuestionHTMLBody(jsonObj, callbackFunc) {
+		}
+
+		function buildQuestionHTMLHeader(jsonObj, callbackFunc) {
+			processJson(a,buildQuestionHTMLBody)
+		}
+		*/
+
+		function shuffle(o){
+		    for(var j, x, i = o.length; i; j = Math.floor(Math.random() * i), x = o[--i], o[i] = o[j], o[j] = x);
+		    return o;
+		}
+
+		function buildTriviaSets() {
+			for (var i = 0; i < myDataBeachhead['full_set'].length; i++) {
+				var ii = myDataBeachhead['full_set'][i];
+
+				var temp = {
+					'year': ii['year'],
+					'movies': ii['movies'],
+					'winner': false,
+				};
+
+				for (var j = 0; j < ii['movies'].length; j++) {
+					var jj = ii['movies'][j];
+					if (jj['winner']) {
+						temp['winner'] = j; // stupid confusing!
+					}
+ 				}
+
+				allQuestions['year' + ii['year']] = temp;
+
+			}
+		}
+        
+        function removeTheAttr(ele){
+            $(ele).removeAttr("onClick");
+            $(ele).addClass("clicked");
+        }
+
+		function setScore(scoreVal,direction) {
+			if (direction != null) {
+				if (direction == 'plus') {
+					currentScore = (currentScore + scoreVal);
+				}
+				else if (direction == 'minus') {
+					currentScore = (currentScore - scoreVal);
+				}
+			} else {
+				currentScore = scoreVal;
+			}
+			$('#scorex').html(currentScore);
+			console.log(currentScore);
+		}
+
+		function resetGame() {
+
+			$('#container').html('');// = $('');
+
+			currentScore = 0;
+			setScore(currentScore);
+
+			var shuffledQuestions = shuffle(myDataBeachhead['full_set']); 
+
+			var currentQuestions = [];
+			for (var i = 0; i < numberOfQuestions; i++) {
+				currentQuestions[i] = shuffledQuestions[i];
+			}
+
+			for (var i = 0; i < currentQuestions.length; i++) {
+				buildQuestionToScreen(currentQuestions[i], $('#container'));
+			}
+
+		}
+
+		function buildQuestionToScreen(question, screenObj) {
+
+			var questionObj = $('<div style="margin:20px"></div>');
+
+			questionObj.append(
+				'<div>Which was the best picture in the year ' + question['year'] + '?</div>'
+			);
+
+			console.log(question['movies']);
+
+			for (var j = 0; j < question['movies'].length; j++) {
+				questionObj.append(
+					'<a href="#" onClick=handleQuestionSubmit("'
+						+ question['year'] +
+					'","' 
+						+ j +
+					'");removeTheAttr(this);>'
+						+ question['movies'][j]['movie_title'] +
+					'</a><br />'
+				);
+			}
+
+			screenObj.append(questionObj);
+
+		}
+
+		function handleQuestionSubmit(year,idx,ele) {
+			console.log('handleQuestionSubmit ' + year + ', ' + idx);
+
+			submittedYear = allQuestions['year' + year];
+
+			if (submittedYear['winner'] == idx) {
+				//alert('yes');
+				setScore(1,'plus');
+			} else {
+				console.log('no');
+				setScore(1,'minus');
+			}
+		}
+ 
+		function runMainProgram() {	
+			console.log(myDataBeachhead['full_set'].length);
+
+			buildTriviaSets();
+
+			resetGame();
+
+			// wait for user interaction:
+				// handleQuestionSubmit();
+				// resetGame();
+
+
+
+
+
+			/*
+			console.log(myDataBeachhead['full_set'].length);
+
+			for (var i = 0; i < myDataBeachhead['full_set'].length; i++) {
+				var ii = myDataBeachhead['full_set'][i];
+
+				$('#container').append($('<p>' + ii['year'] + '</p>'));
+				var movies_array = ii['movies'];
+				var listObj = $('<ul></ul>');
+
+				for (var j = 0; j < movies_array.length; j++) {
+					var jj = movies_array[j];
+
+					var outerblock = $('<li></li>');
+
+					var tagName = 'span';
+
+					if (jj['winner']) {
+						tagName = 'h3';
+					}
+
+					var innerblock = $('<' + tagName + '></' + tagName + '>');
+					innerblock.append(
+						'<p>' + jj['movie_title'] + '</p>'
+					);
+					innerblock.append(
+						'<p>' + jj['producer'] + '</p>'
+					);
+					outerblock.append(innerblock);
+
+					listObj.append(outerblock);
+				}
+
+				$('#container').append(listObj);
+			}
+			*/
+
+		}
+
+		$.ajax({
+			dataType:'json',
+			url:'http://localhost:8888/movies.json',
+			success:function(returnData, statusValue, weirdNewObject) { 
+				myDataBeachhead = returnData;
+				console.log ('got it, move along'); 
+				runMainProgram();
+			},
+		});
+
+		/*
+		var t = $("<table cellspacing='0' border='1' class='text'><tr><td>test</td></tr></table>");
+		$('#container').append(t);
+		*/
+
+
+	</script>
+
+	<button onClick="resetGame()">Reset Game</button>
+</body>
+</html>
