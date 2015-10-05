@@ -21,6 +21,7 @@
 		var numberOfQuestions = 4;
 		var totalScore = 0;
 		var currentScore = 0;
+		var questionsClicked = {};
 
 		/*
 		function processJson(jsonObj, callbackFunc) {
@@ -84,6 +85,7 @@
 		function resetGame() {
 
 			$('#container').html('');// = $('');
+			questionsClicked = {};
 
 			currentScore = 0;
 			setScore(currentScore);
@@ -112,14 +114,19 @@
 			console.log(question['movies']);
 
 			for (var j = 0; j < question['movies'].length; j++) {
+
+				key = question['year'] + '_' + j;
+				questionsClicked[key] = false;
+
 				questionObj.append(
-					'<a href="#" onClick=handleQuestionSubmit("'
+					'<a href=javascript:handleQuestionSubmit("'
 						+ question['year'] +
 					'","' 
 						+ j +
 					'");>'
+						+ '<span id="' + question['year'] + '_' + j + '">'
 						+ question['movies'][j]['movie_title'] +
-					'</a><br />'
+					'</span></a><br />'
 				);
 			}
 
@@ -132,13 +139,22 @@
 
 			submittedYear = allQuestions['year' + year];
 
-			if (submittedYear['winner'] == idx) {
-				//alert('yes');
-				setScore(1,'plus');
+			key = year + '_' + idx;
+
+			if (questionsClicked[key]) {
+				console.log('already clicked: ' + key);
 			} else {
-				console.log('no');
-				setScore(1,'minus');
+				if (submittedYear['winner'] == idx) {
+					//alert('yes');
+					setScore(1,'plus');
+					$('#' + key).append(' WINNER');
+				} else {
+					console.log('no');
+					setScore(1,'minus');
+				}
 			}
+
+			questionsClicked[key] = true;
 		}
  
 		function runMainProgram() {	
@@ -203,7 +219,12 @@
 				console.log ('got it, move along'); 
 				runMainProgram();
 			},
+			error:function(error, errStr, errCode) {
+				console.log('error ' + errStr + ', ' + errCode);
+			}
 		});
+
+		console.log('test1');
 
 		/*
 		var t = $("<table cellspacing='0' border='1' class='text'><tr><td>test</td></tr></table>");
