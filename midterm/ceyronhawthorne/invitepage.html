@@ -1,0 +1,152 @@
+<!Doctype html>
+
+<html>
+<head>
+<title>Bandsync</title>
+<script src="./jquery-1.11.3.min.js"></script>
+
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <meta name="description" content="" />
+        <meta name="keywords" content="" />
+        <script src="js/skel.min.js"></script>
+        <script src="js/skel-layers.min.js"></script>
+        <script src="js/init.js"></script>
+        <noscript>
+            <link rel="stylesheet" href="css/skel.css" />
+            <link rel="stylesheet" href="css/style.css" />
+            <link rel="stylesheet" href="css/style-xlarge.css" />
+        </noscript>
+                    <link href="bootstrap-3.3.5-dist/css/bootstrap.min.css" rel="stylesheet" media="screen">
+</head> 
+    
+<body id = "top">
+    <header id="header" class="skel-layers-fixed">
+                <h1><a href="#">Bandsync</a></h1>
+                <nav id="nav">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="#" class="button special">Sign Up</a></li>
+                    </ul>
+                </nav>
+            </header>
+
+
+<h1>Concert Invite page </h1>
+<br><br><br>
+<button type="button" style="margin:10px" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Invite a friend to a concert</button>
+
+<!-- Modal -->
+<div id="myModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Invitation</h4>
+      </div>
+      <div class="modal-body">
+        
+        <div id="container">  </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+<script src="bootstrap-3.3.5-dist/js/bootstrap.min.js"></script>
+<script>
+var concertData = {};
+var eventInfo = {};
+var ticketInfo = {};
+
+function makeInvite() {
+    var metaInfo = concertData['global'][0];
+
+    eventInfo['venue'] = metaInfo['mapTitle'];
+    eventInfo['band'] = metaInfo['productionName'];
+    eventInfo['description'] = metaInfo['descr'];
+    eventInfo['site'] = metaInfo['prSite'];
+    console.log(eventInfo['site']);
+    for (var i = 0; i < concertData['tickets'].length; i++) {
+        var ii = concertData['tickets'][i];
+
+        var temp = {
+        'section': "Section: "+ii['l'],
+        'price': "Price: $" + ii['p'],
+        'row': "Row: " + ii['r'],
+        
+    };  
+
+        
+    ticketInfo[i] = temp;
+    console.log("The value of i is: " + i);
+    console.log(ticketInfo[i]);
+    console.log("Ticket info len inside loop" + ticketInfo.length);
+    }
+    console.log("Thicket info" + ticketInfo[0]);
+    return ticketInfo;
+}
+
+function buildInvite( ) {
+
+    var $inviteObj = $('<div id = "inviteObj" style="margin:100px"></div>');
+    var $divline = $("<div id = ticketObj></div>");
+
+     $divline.append(
+     'Invite a friend to see ' + eventInfo['band'] + '!<br><br><br> Location: New York, NY <br><br> Venue:' + eventInfo['venue'] + '<br><br>Available Tickets:'
+     );
+
+     $inviteObj.append($divline);
+    //var $div = $("<div></div>");
+    
+    console.log(eventInfo['band']);
+    var $table = $("<table style=margin:10px></table>");
+    console.log("Before for loop " );
+    for (var j = 0; j < 3; j++) {
+        var $line = $("<tr></tr>");
+        $line.append($("<td>Section: </td>").html(ticketInfo[j]["section"]));
+        console.log("Line Append 1: " + ticketInfo[j]["section"]);
+        $line.append($("<td>Price: $</td>").html(ticketInfo[j]["price"]));
+        console.log("Line Append 2: " + ticketInfo[j]["price"]);
+        $line.append($("<td>Row: </td>").html(ticketInfo[j]["row"]));
+        console.log("Line Append 3: " + ticketInfo[j]["row"]);
+        $table.append($line);
+    }
+    //$table.appendTo(document.body);
+    //Add a div for the invites
+    var $divline2 = $("<div></div>");
+    $divline2.append(
+     "Band Description: " + eventInfo["description"] + "<br><br>Band Site: " + eventInfo["site"] + "<br>");
+    $inviteObj.append($divline2);
+    $inviteObj.appendTo($("#container"));
+    $table.appendTo($("#ticketObj"));
+    //$descrLine.appendTo($("#inviteObj"));
+
+}
+function runMainProgram() {
+console.log(concertData['global']);
+ makeInvite();
+ buildInvite();
+}
+
+$.ajax({
+    dataType:'json',
+    url: 'concertInfo.json',
+    success: function(data){
+        //console.log(data);
+        concertData = data;
+       runMainProgram();
+        $(data.tickets).each(function(index, value){
+
+                console.log(value.p);
+        });
+    }
+
+})
+
+// </script>

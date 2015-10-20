@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Tandon Foods</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+</head>
+
+<body>
+
+<div id="search_area"> 
+	<label for= "search"> Live Info Search </label> <!--When you click search, you access the search bar, thus making it good for mobile devices -->
+	<p> Enter in the name of a restaurant near the proximity of Tandon SOE, or adjectives that relate to it.
+	(e.g chinese, burgers, take out, pick up etc. </p>
+	<input type="searchbar" name="foo" id="search" placeholder="Restaurants or words that are related">
+	<button type="button" id="click"> Search! </button>
+	<button type="button" id="clear" onclick="reset()">Clear!</button>
+	</div>
+
+<div id="update"></div>
+
+
+<style type="text/css" media="screen">
+#search_area {
+	text-align: center;
+	background: lightgray;
+	font-size: 20px;
+	font-family : Arial;
+	font-weight: bold;
+}
+#search_area p {
+	text-align: center;
+	font-size: 15px;
+}
+#update {
+	text-align: left;
+	list-style-type: none;
+}
+
+</style>
+	
+
+<script>
+
+function Main(){
+	//$('#click').click(function(){ // starts fxn upon the click of the search button
+   	$('#search').keyup(function(){
+
+		var searchField = $('#search').val() // targets the search bar, and stores what the user types in 
+		var Exp = new RegExp(searchField, "i"); //i means insensitive search
+		//The RegExp constructor creates a regular expression object for matching text with a pattern.
+
+		$.getJSON('./midterm_data.json', function(data){
+
+			for(var i=0; i < data.length; i++){			
+				var stores = data[i]; //logs all of the restaurants, used for for-loop below
+				var ii = data[i]["descriptions"]; //logs the array of restaurant descriptions
+				console.log(stores);
+
+				for(var j=0; j<ii.length; j++) {
+					var adj = ii[j]; // logs the entities within the array of restaurant descriptions
+					//console.log(adj); 
+				}
+			}
+
+			var output = "<ul>";
+
+			$.each(data, function(index, val) { //iterates over a JQuery Object
+				/*|| (val.adj.search(myExp) != -1)) {
+					  for(var x=0; x<adj.length;x++){
+						(ii[x].search(myExp) !=-1)
+					*/
+				if (val.name.search(Exp) != -1)  { 
+				//search() looks for a specified value (str,). If value is found, -1 is returned
+				
+				 	output += '<li>';
+				 	output += '<h2>' + val.name + '</h2>';
+				 	output += '<p>' + val.address + '</p>';
+				 	output += '<p>' + val.phone + '</p>';
+				 	output += '<p>' + val.hours + '</p>';
+				 	output += '<p>' + val.delivery + '</p>';
+				 	output += '</li>';						
+				}
+			
+			});
+//dictionary
+			output += '</ul>';
+			$('#update').html(output);	
+
+		});
+		reset();
+	});
+};
+
+
+
+
+
+	function reset(){
+		
+		$('#clear').click(function(){
+			$('#update').html('');
+
+		});
+	};
+
+	Main();	
+
+
+
+
+
+
+
+</script>
+	
+
+
+
+
+
+
+
+
+
+</body>
+</html>
+
+
+
+
+
+
+<!--Test Code...  would be located right after $.each()
+			for (var x = 0; x < stores.length; x++){
+				if ((stores[x].search(myExp) != -1) || searchField == adj){
+					console.log("test-run");
+					output += '<li>';
+					output += '<p>' + stores[x] +'</p>';
+					output += '</li>';
+					};
+				} --> 

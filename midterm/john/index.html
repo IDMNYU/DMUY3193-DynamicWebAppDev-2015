@@ -1,0 +1,28 @@
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="./style.css" />
+		<script src="./jquery-1.11.3.min.js"></script>
+		<script src="./bigtext.js"></script>
+		<script src="./hospital-map.js"></script>
+	</head>
+	<body onload=main()>
+		<div class="left">
+			<div class="loadAll" action="" method="GET">
+				<button onclick=loadAll()>Default</button>
+			</div>
+			<div class="loadRange">
+				<input type="text" name="longitude" class="longitude" value="longitude (-179 - 179)"><br/>
+				<input type="text" name="latitude" class="latitude" value="latitude (-179 - 179)"><br/>
+				<input type="text" name="width" class="width" value="width (1 - 180)"><br/>
+				<input type="text" name="precision" class="precision" value="precision (0 - 180)"><br/>
+				<button onclick=loadRange(this.form)>Render</button>
+			</div>
+			<div class="controls">
+				<input type="text" name="magnitude" class="magnitude" value="magnitude"><br/>
+				<button onclick=zoomIn(this.form)>Zoom in</button>
+				<button onclick=zoomOut(this.form)>Zoom out</button>
+			</div>
+		</div>
+		<div class="map"></div>
+	</body>
+</html>

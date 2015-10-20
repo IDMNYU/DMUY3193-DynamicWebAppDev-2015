@@ -1,0 +1,239 @@
+[
+	{
+		"name": "Au Bon Pain",
+		"address": "70, Myrtle Ave, Brooklyn, NY 11201",
+		"phone": "(718) 624-9598",
+		"hours": "Opening Hours: Mon -Fri: 6:00 am – 7:00 pm",
+		"delivery": "N/A",
+		"descriptions": ["pastries", "sandwiches", "salads"],
+		"image": "" 
+	},
+	{
+		"name": "Shake Shack",
+		"address": "409 Fulton St, Brooklyn, NY 11201" ,		
+		"phone": "(718) 307-7590",
+		"hours": "Opening Hours: Mon -Sun: 11:00 am – 11:00 pm",
+		"delivery": "N/A",
+		"descriptions": ["burger", "fries", "salty", "groups", "wheelchair-accessible"],
+		"image": ""
+	},
+	{
+		"name":"Chipotle", 
+		"address": " 1 MetroTech Roadway, Brooklyn, NY " ,
+		"phone": "(917) 246-4060",
+		"hours": "Opening Hours: Mon - Fri: 11:00 am – 10:00 pm",
+		"delivery": "Delivery is available",
+		"descriptions":	["burritos", "guacamole", "rice", "black beans", "brown beans", "bowl"],	
+		"image": ""
+	},
+	{
+		"name": "Five Guys",	
+		"address": "2 MetroTech Roadway",
+		"phone": "(718) 852-9380",
+		"hours": "Opening Hours: Mon - Fri: 11:00 am – 10:00 pm",
+		"delivery": "Delivery Unavailable",
+		"descriptions": ["burger", "fries", "salty", "beef", "crispy"],
+		"image": ""
+	},
+	{
+		"name": "Lin's Yummi Taco",
+		"address": "52 Willoughby St, Brooklyn, NY 11201",
+		"phone": "(718) 522-6880",
+		"hours": "Opening Hours: Mon -Fri: 10:30am-10:30pm",
+		"delivery": "Delivery is available",
+		"descriptions": "",
+		"image": ""
+	},
+	{
+		"name": "Chang Heng",
+		"address": "54 Willoughby St, Brooklyn 11201" ,
+		"phone": "(718) 488-9288" ,
+		"hours": "Opening Hours: Mon -Fri: 7am-9pm; Sat: 9:30am-9pm",
+		"delivery": "Delivery is available",
+		"descriptions":"",		
+		"image": ""
+	},
+	{
+		"name": "Panera Bread",
+		"address": "345 Adams St, Brooklyn 11201",
+		"phone": "(718) 643-0345" ,
+		"hours": "Opening Hours: Mon  - Fri: 5:30AM - 10:00PM",
+		"delivery": "Delivery Unavailable",
+		"descriptions":"",
+		"image": ""
+	},
+	{
+		"name": "Subway",
+		"address": "117 Opening Hours: Mon tague St, Brooklyn, NY 11201" ,
+		"phone": "(718) 243-0826",
+		"hours": "Opening Hours: Mon -Sun: 7:00AM - 10:00PM",
+		"pickup": "Delivery Unavailable",
+		"delivery": "Delivery Unavailable",
+		"descriptions": [""],
+		"Image": ""
+	},
+	{
+		"name": "Metro Cafe",
+		"address": "15 Metrotech Ctr, Brooklyn 11201(Btwn Tech Pl & Willoughby St)" ,
+		"phone": "(718) 237-4800" ,
+		"hours": "Opening Hours: Mon -Sun: 7:00am-5:00pm",
+		"pickup": "Delivery is available",
+		"delivery": "Delivery is available",
+		"descriptions": ["deli", "sandwiches", "salads", "casual", "breakfast", "lunch", "buffet", "catering", "delivery", "Online Ordering", "take out", "trendy"],
+		"image": ""
+
+	},
+	{
+		"name": "Super Taco",
+		"address": "54 Willoughby St, Brooklyn 11201" ,
+		"phone": "(718) 222-9350" ,
+		"hours": "Opening Hours: Mon -Fri: 10:30am-11pm, Sat-Sun: 11am-10pm",
+		"pickup": "Delivery is available",
+		"delivery": "Delivery is available",
+		"descriptions": ["mexican", "southwestern", "Cheap Eats", "Delivery", "Dinner", "Lunch", "Take Out", "Vegan", "Vegetarian"],
+		"Image": ""
+	},
+	{
+		
+		"name": "Golden Crust",
+		"address": "139 Lawrence Avenue, Brooklyn, NY 11201" ,
+		"phone": "(718) 643-1054" ,
+		"hours": "Opening Hours: Daily: 7:30 am – 8:30 pm",
+		"pickup": "Delivery is available",
+		"delivery":"Delivery is available",
+		"descriptions": ["jerk chicken", "curry", "carribbean", "spicy", "beef patties"],
+		"image": ""
+	},					
+	{
+		"name": "Pio Bagel",
+		"address": "136 Lawrence St, Brooklyn 11201, (Btwn Willoughby & Fulton St)",
+		"phone": "(718) 237-2777" ,
+		"hours": "Opening Hours: Mon -Fri: 6am-7:45pm, Sat-Sun: 7am-4:45pm",
+		"pickup": "Delivery is available",
+		"delivery": "Delivery is available",
+		"descriptions": ["bagels", "deli food", "salads", "sandwiches", "turkey", "ham", "mayonnaise"],
+		"Image": ""
+	},					
+	{
+		"name": "Skyline Gourmet",
+		"address": "64 Willoughby St, Brooklyn 11201, (Btwn Bridge & Lawrence St)" ,
+		"phone": "(718) 522-1963" ,
+		"hours": "Opening Hours: Daily: 24 hrs",
+		"pickup": "",
+		"delivery":"Delivery is available",
+		"descriptions": ["american", "deli", "turkey", "ham", "sandwiches", "mayonaise", "cheese", "swiss cheese"],
+		"image": ""
+	},					
+	{
+		"name": "Asian City",
+		"address": "148 Lawrence St, Brooklyn 11201" ,		
+		"phone": "(718) 488-7200" ,
+		"hours": "Daily: 11am-9:30pm",
+		"pickup": "Delivery is available",
+		"delivery": "Delivery is available",
+		"descriptions": ["dinner", "sushi", "general tso chicken", "chinese", "rice", "white rice"],
+		"image": ""	
+	},					
+	{
+		"name": "Lee's Villa Chinese Restaurant",
+		"address": "152 Lawrence St, Brooklyn 11201" ,		
+		"phone": "(718) 855-1818" ,
+		"hours": "Opening Hours: Mon -Sat: 11am-8pm, Sun: 11am-7pm",
+		"pickup": "Delivery is available",
+		"delivery": "Delivery is available",
+		"descriptions": ["Chinese"],
+		"image": ""
+	},					
+	{
+		"name": "Dunkin Donuts",
+		"address": "387 Jay St, Brooklyn, NY 11201" ,		
+		"phone": "(347) 689-4067" ,
+		"hours": "",
+		"pickup": "",
+		"delivery":"",
+		"descriptions": [""],
+		"image": ""
+	},					
+	{
+		"name": "Buffalo Boss",
+		"address": "400 Jay St, New York 11201" ,		
+		"phone": "(718) 923-0800" ,
+		"hours": "Opening Hours: Mon -Thu: 11am-11pm, Fri-Sat: 11am-12am, Sun: 12pm-11pm",
+		"pickup": "Delivery is available",
+		"delivery":"Delivery is available",
+		"descriptions": ["Local", "Organic", "Wings", "Buffalo Wings", "Fries"],
+		"image": ""
+	},					
+	{
+		"name": " PotBelly Sandwich Shop",
+		"address": "345 Adams St, Brooklyn 11201, (Btwn Johnson St & Fulton Mall)" ,	
+		"phone": "(212) 897-1872" ,
+		"hours": "Opening Hours: Mon -Fri: 11am-9pm, Sat-Sun: 11am-7pm",			
+		"pickup":"Delivery is available",
+		"delivery":"Delivery is available",
+		"descriptions": ["Sandwiches", "Glutton-Free"],
+		"image": ""
+	},					
+	{
+		"name": "Orange Leaf",
+		"address": "345 Adams St, Brooklyn 11201" ,		
+		"phone": "(888) 883-1004" ,
+		"hours": "Opening Hours: Daily: 11am-10pm",
+		"pickup": "Delivery is available",
+		"delivery": "Delivery is available",
+		"descriptions": ["Deserts", "Cupcakes", "Kid-Friendly", "Frozen Yoghurt", "Toppings"],
+		"image": ""
+	},					
+	{
+		"name": "Hill Country Chicken",
+		"address": "345 Adams St, Brooklyn 11201" ,
+		"phone": "(718) 885-4609" ,
+		"hours": "Opening Hours: Daily: 11:30am-10pm",
+		"pickup": "Delivery Unavailable",
+		"delivery": "Delivery Unavailable",
+		"descriptions": ["Wheelchair Acessible", "Private Parties", "Clean"],
+		"image": ""
+	},					
+	{
+		"name": "Golden Fried Dumpling",
+		"address": "192 Duffield St, Brooklyn 11201, (Btwn Willoughby St & Myrtle Ave)" ,
+		"phone": "(718) 522-2836" ,
+		"hours": "Opening Hours: Daily: 10am-9:30pm",
+		"Pickup": "Delivery is available",
+		"delivery":"Delivery is available",
+		"descriptions": ["Lunch", "Take Out", "Soup", "Chicken", "Corn", "Chinese"],
+		"image": ""
+	},					
+	{
+		"name": "La Defense",
+		"address": "2 Metrotech Center, New York, NY 11201" ,
+		"phone": "(718) 855-4200" ,
+		"hours": "Opening Hours: Mon -Fri: 7:00am – 6:00pm, 9:00am - 4:00pm",
+		"pickup": "Delivery Unavailable",
+		"delivery":"Delivery Unavailable",
+		"descriptions": [""],
+		"image": ""
+	},					
+	{
+		"name": "Morris' Grilled Cheese Truck",
+		"address": "Go to twitter.com/morristruck for more info" ,
+		"phone": "" ,
+		"hours": "Opening Hours: Mon -Fri: 11:30am - 2:30pm",
+		"pickup": "Delivery is available",
+		"delivery":"Delivery is available",
+		"descriptions": ["Catering", "Food Truck"],
+		"image": ""
+	},				
+	{
+		"name": "Hale and Hearty Soups",
+		"phone": "(347) 889-5258" ,
+		"address": "2 Metrotech Center, Brooklyn 11201" ,
+		"hours": "Opening Hours: Mon -Fri: 10am-10pm, Sat-Sun: 11am-9pm",
+		"pickup": "Delivery Unavailable",
+		"delivery": "Delivery Unavailable",
+		"descriptions": ["Chicken", "Rice", "Soup", "Pot Pie", "Chowder", "Sandwiches"],
+		"image": ""
+	
+	}					
+]
+

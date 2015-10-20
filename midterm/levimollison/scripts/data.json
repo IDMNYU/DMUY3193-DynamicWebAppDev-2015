@@ -1,0 +1,52 @@
+{
+    "data_set" : [ 
+        {
+            "user_set" : [
+                {
+                    "fname" : "Levi",
+                    "lname" : "Mollison",
+                    "email" : "lm2817@nyu.edu"
+                },
+                {
+                    "fname" : "Nany",
+                    "lname" : "Delgato",
+                    "email" : "nd345@nyu.edu"
+                }
+            ],
+            "sound_set" : [
+                {
+                    "quality": "study",
+                    "iD": 1, 
+                    "name": "Background Music Instrumentals - relaxdaily - B-Sides NÂ°1",
+                    "link": "music/Background Music Instrumentals - relaxdaily - B-Sides NÂ°1.mp3"
+                },
+                {
+                    "quality": "study",
+                    "iD": 2, 
+                    "name": "All Them Witches - Heavy Like A Witch",
+                    "link": "music/01 Heavy Like A Witch.mp3"
+                }                
+            ],
+            "image_set" : [
+                {
+                    "name":"light pattern",
+                    "quality":"study",
+                    "iD":1,
+                    "creator":"lord0pichacu",
+                    "link_to_creator":"http://alpha.wallhaven.cc/user/lord0pichacu",
+                    "link":"images/light-pattern.png"
+                }
+            ],
+            "quote_set" : [
+                {
+                    "day" : 1,
+                    "id" : 1,
+                    "description" : "If you don\"t prioritize your life, someone else will.",
+                    "creator" : "Greg McKeown"
+                }
+            ]
+            
+        }
+        
+    ]
+}

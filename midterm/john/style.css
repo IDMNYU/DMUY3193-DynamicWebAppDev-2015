@@ -1,0 +1,19 @@
+.left {
+	float:left;
+	width: 20%;
+	min-height: 100vh;
+	max-height: 100%;
+	background-color: pink;
+	text-align: center;
+}
+
+.left div {
+	margin: 35px;
+}
+
+.map {
+	font-family:Consolas,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New, monospace;
+	/*border: 1px black solid;*/
+	background-color:blue;
+	float: left;
+}

@@ -1,0 +1,34 @@
+{
+    "full_set": [
+        {
+            "job": "United Natural Foods",
+            "location": "Montgomery, NY",
+            "bid_accepted" : "2015",
+            "job_completed" : "2015"
+        },
+        {
+            "job": "Compass Motors",
+            "location": "Middletown, NY",
+            "bid_accepted" : "2014",
+            "job_completed" : "2014"
+        },
+        {
+            "job": "Carlisle Manufacturing Facility",
+            "location": "Hamptonburgh, NY",
+            "bid_accepted" : "2013",
+            "job_completed" : "2013"
+        },
+        {
+            "job": "Marriott",
+            "location": "Elmira, NY",
+            "bid_accepted" : "2012",
+            "job_completed" : "2012"
+        },
+        {
+            "job": "Hampton Inn",
+            "location": "Quakerstown, PA",
+            "bid_accepted" : "2011",
+            "job_completed" : "2011"
+        }
+    ]
+}

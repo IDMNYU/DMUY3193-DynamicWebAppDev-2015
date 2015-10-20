@@ -1,0 +1,46 @@
+{
+    "filters": 
+        [
+            { "name": "Gluten-Free", "allergen": "gluten" },
+            { "name": "Egg-Free",    "allergen": "egg" },
+            { "name": "Dairy-Free",  "allergen": "dairy" },
+            { "name": "Soy-Free",    "allergen": "soy" },
+            { "name": "Nut-Free",    "allergen": "nut" }
+        ]
+    ,
+    "recipes": {
+        "breakfast": [
+            { "name": "Breakfast Food", "photoSrc": "foods.jpg", "allergen": ["gluten", "dairy"]},
+            { "name": "Breakfast Food", "photoSrc": "foods.jpg", "allergen": ["egg"]},
+            { "name": "Breakfast Food", "photoSrc": "foods.jpg", "allergen": ["gluten"]},
+            { "name": "Breakfast Food", "photoSrc": "foods.jpg", "allergen": ["egg", "dairy"]},
+            { "name": "Breakfast Food", "photoSrc": "foods.jpg", "allergen": []},
+            { "name": "Breakfast Food", "photoSrc": "foods.jpg", "allergen": []},
+        ],
+        "lunch": [
+            { "name": "Lunch Food", "photoSrc": "foods.jpg", "allergen": ["gluten", "soy"]},
+            { "name": "Lunch Food", "photoSrc": "foods.jpg", "allergen": ["gluten", "nut"]},
+            { "name": "Lunch Food", "photoSrc": "foods.jpg", "allergen": ["nut", "dairy"]},
+            { "name": "Lunch Food", "photoSrc": "foods.jpg", "allergen": []},
+            { "name": "Lunch Food", "photoSrc": "foods.jpg", "allergen": []},
+            { "name": "Lunch Food", "photoSrc": "foods.jpg", "allergen": []},
+        ],
+        "dinner": [
+            { "name": "Dinner Food", "photoSrc": "foods.jpg", "allergen": ["gluten", "dairy"]},
+            { "name": "Dinner Food", "photoSrc": "foods.jpg", "allergen": ["gluten", "dairy"]},
+            { "name": "Dinner Food", "photoSrc": "foods.jpg", "allergen": ["soy", "dairy"]},
+            { "name": "Dinner Food", "photoSrc": "foods.jpg", "allergen": ["gluten", "nut"]},
+            { "name": "Dinner Food", "photoSrc": "foods.jpg", "allergen": []},
+            { "name": "Dinner Food", "photoSrc": "foods.jpg", "allergen": []},
+            { "name": "Dinner Food", "photoSrc": "foods.jpg", "allergen": []},
+            { "name": "Dinner Food", "photoSrc": "foods.jpg", "allergen": []},
+        ],
+        "dessert": [
+            { "name": "Dessert Food", "photoSrc": "foods.jpg", "allergen": ["gluten", "egg"]},
+            { "name": "Dessert Food", "photoSrc": "foods.jpg", "allergen": ["gluten", "dairy"]},
+            { "name": "Dessert Food", "photoSrc": "foods.jpg", "allergen": ["egg", "dairy"]},
+            { "name": "Dessert Food", "photoSrc": "foods.jpg", "allergen": ["nut", "dairy", "egg"]},
+            { "name": "Dessert Food", "photoSrc": "foods.jpg", "allergen": []}
+        ]
+    }
+}

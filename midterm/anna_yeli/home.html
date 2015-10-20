@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>On My Radar</title>
+    
+    
+    
+    
+        <link rel="stylesheet" href="css/style.css">
+
+    
+    
+    
+  </head>
+
+  <body>
+
+    <body data-ng-app="">
+<div class="container" data-ng-controller="TodoController">
+	<header class="app-header">
+		<h1 class="app-title">{{ appTitle }}</h1>
+		<h1 class="app-headline">{{ appHeadline }}</h1>
+	</header>
+
+	<section class="app-body">
+		<section class="archive-control">
+			<span>{{ remaining() }} of {{ todos.length }} remaining</span>
+			<p>[ <a href="" data-ng-click="archive()">Remove Completed Items</a> ]</p>
+		</section>
+
+		<ul class="unstyled">
+			<li data-ng-repeat="todo in todos track by $index">
+				<input type="checkbox" data-ng-model="todo.done">
+				<span class="done-{{ todo.done }}">{{ todo.text }}</span>
+			</li>
+		</ul>
+
+		<form data-ng-submit="addTodo()" class="todo-form">
+			<input type="text" data-ng-model="todoText" placeholder="Enter new ToDo item" />
+			<br />
+			<input type="submit" value="Add Task" />
+		</form>
+	</section>
+</div>
+    <script src='http://cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.1/angular.min.js'></script>
+
+        <script src="js/index.js"></script>
+
+    
+    
+    
+  </body>
+</html>

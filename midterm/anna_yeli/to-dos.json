@@ -1,0 +1,106 @@
+{
+    "to-dos": [
+    {
+        "title": "data structures hw",
+        "description": "Answer data structures quiz question.",
+        "dayOfWeek": "Monday",
+        "priority": 3
+    },
+    {
+        "title": "practice for interviews",
+        "description": "go through 3 chapters in cracking the coding interview",
+        "dayOfWeek": "Monday",
+        "priority": 4
+    },
+    {
+        "title": "get contact lens",
+        "description": "go to the optometrist and get your contact lens to wear",
+        "dayOfWeek": "Tuesday",
+        "priority": 2
+    },
+    {
+        "title": "buy ly domain",
+        "description": "buy .ly domain for yell.ly",
+        "dayOfWeek": "Tuesday",
+        "priority": 1
+    },
+    {
+        "title": "get feedback on resume",
+        "description": "send your resume over to people to review",
+        "dayOfWeek": "Wednesday",
+        "priority": 5
+    },
+    {
+        "title": "apply for the delphix scholarship",
+        "description": "apply for delphix scholarship ",
+        "dayOfWeek": "Wednesday",
+        "priority": 3
+    },
+    {
+        "title": "hw for dynamic web",
+        "description": "debug the oscars.html code and fix it",
+        "dayOfWeek": "Thursday",
+        "priority": 1
+    },
+    {
+        "title": "get your umbrella",
+        "description": "you forgot it at work yesterday",
+        "dayOfWeek": "Thursday",
+        "priority": 1
+    },
+    {
+        "title": "book space for event",
+        "description": "book elab for monday the 21st",
+        "dayOfWeek": "Friday",
+        "priority": 2
+    },
+    {
+        "title": "do laundry",
+        "description": "call the laundry people next door and pay",
+        "dayOfWeek": "Friday",
+        "priority": 1
+    },
+    {
+        "title": "write blog post",
+        "description": "write blog post on your tumblr for danm class",
+        "dayOfWeek": "Saturday",
+        "priority": 3
+    },
+    {
+        "title": "finish data structures hw",
+        "description": "finish up the classes and implement interfaces",
+        "dayOfWeek": "Saturday",
+        "priority": 1
+    },
+    {
+        "title": "apply to squarespace",
+        "description": "Write resume and cover letter and fill out application online.",
+        "dayOfWeek": "Sunday",
+        "priority": 2
+    },
+    {
+        "title": "Buy groceries",
+        "description": "Order groceries from instacart using free deleivery",
+        "dayOfWeek": "Sunday",
+        "priority": 5
+    },
+    {
+        "title": "Buy groceries",
+        "description": "Order groceries from instacart using free deleivery",
+        "dayOfWeek": "Sunday",
+        "priority": 3
+    },
+    {
+        "title": "Buy groceries",
+        "description": "Order groceries from instacart using free deleivery",
+        "dayOfWeek": "Sunday",
+        "priority": 1
+    },
+    {
+        "title": "Buy groceries",
+        "description": "Order groceries from instacart using free deleivery",
+        "dayOfWeek": "Sunday",
+        "priority": 2
+    }
+    ]
+}

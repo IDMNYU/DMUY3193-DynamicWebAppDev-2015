@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>Them Recipes</title>
+        <link type="text/css" rel="stylesheet" href="styles/skeleton.css"/>
+        <link type="text/css" rel="stylesheet" href="styles/recipes.css"/>
+        <script type="text/javascript" src="scripts/jquery.js"></script>
+    </head>
+    <body class="container">
+        <header class="twelve columns pageHeader">
+            <h1 class="heading">HEADER</h1>
+        </header>
+        
+        <nav class="twelve columns mainNav">
+            <ul class="navList">
+                <li>Link</li>
+                <li>Link</li>
+                <li>Link</li>
+            </ul>
+        </nav>
+        
+        <div class="row">
+            <aside class="three columns filters">
+                <h2 class="heading">FILTERS</h2>
+                <h3>Categories</h3>
+                <ul class="meal-filters">
+                    <li category="breakfast">Breakfast</li>
+                    <li category="lunch">Lunch</li>
+                    <li category="dinner">Dinner</li>
+                    <li category="dessert">Dessert</li>
+                </ul>
+                <h3>Allergens</h3>
+                <form class="allergen-container">
+                    <!-- More Filters here -->
+                </form>
+                
+            </aside>
+            
+            <section class="nine columns mainSec">
+                <h2 class="heading">RECIPES</h2>
+                <!-- Recipes to be added dynamically. -->
+            </section>
+        </div>
+        
+        <footer class="twelve columns pageFooter">
+            <h1 class="heading">FOOTER</h1>
+        </footer>
+        <script type="text/javascript" src="scripts/script.js"></script>
+        <script>
+            var myDataBeachhead = {
+                "filters": 
+                    [
+                        { "name": "Gluten-Free", "allergen": "gluten" },
+                        { "name": "Egg-Free",    "allergen": "egg" },
+                        { "name": "Dairy-Free",  "allergen": "dairy" },
+                        { "name": "Soy-Free",    "allergen": "soy" },
+                        { "name": "Nut-Free",    "allergen": "nut" }
+                    ]
+                ,
+                "recipes": {
+                    "breakfast": [
+                        { "name": "Gluten and Dairy Food", "photoSrc": "foods.jpg", "allergen": ["gluten", "dairy"]},
+                        { "name": "Egg Food", "photoSrc": "foods.jpg", "allergen": ["egg"]},
+                        { "name": "Gluten Food", "photoSrc": "foods.jpg", "allergen": ["gluten"]},
+                        { "name": "Egg and Dairy Food", "photoSrc": "foods.jpg", "allergen": ["egg", "dairy"]},
+                        { "name": "Breakfast Food", "photoSrc": "foods.jpg", "allergen": []},
+                        { "name": "Breakfast Food", "photoSrc": "foods.jpg", "allergen": []},
+                    ],
+                    "lunch": [
+                        { "name": "Gluten and Soy Food", "photoSrc": "foods.jpg", "allergen": ["gluten", "soy"]},
+                        { "name": "Gluten and Nut Food", "photoSrc": "foods.jpg", "allergen": ["gluten", "nut"]},
+                        { "name": "Nut and Dairy Food", "photoSrc": "foods.jpg", "allergen": ["nut", "dairy"]},
+                        { "name": "Lunch Food", "photoSrc": "foods.jpg", "allergen": []},
+                        { "name": "Lunch Food", "photoSrc": "foods.jpg", "allergen": []},
+                        { "name": "Lunch Food", "photoSrc": "foods.jpg", "allergen": []},
+                    ],
+                    "dinner": [
+                        { "name": "Gluten and Dairy Food", "photoSrc": "foods.jpg", "allergen": ["gluten", "dairy"]},
+                        { "name": "Gluten and Dairy Food", "photoSrc": "foods.jpg", "allergen": ["gluten", "dairy"]},
+                        { "name": "Soy and Dairy Food", "photoSrc": "foods.jpg", "allergen": ["soy", "dairy"]},
+                        { "name": "Gluten and Nut Food", "photoSrc": "foods.jpg", "allergen": ["gluten", "nut"]},
+                        { "name": "Soy Food", "photoSrc": "foods.jpg", "allergen": ["soy"]},
+                        { "name": "Nut Food", "photoSrc": "foods.jpg", "allergen": ["nut"]},
+                        { "name": "Dinner Food", "photoSrc": "foods.jpg", "allergen": []},
+                        { "name": "Dinner Food", "photoSrc": "foods.jpg", "allergen": []},
+                    ],
+                    "dessert": [
+                        { "name": "Gluten and Egg Food", "photoSrc": "foods.jpg", "allergen": ["gluten", "egg"]},
+                        { "name": "Gluten and Dairy Food", "photoSrc": "foods.jpg", "allergen": ["gluten", "dairy"]},
+                        { "name": "Egg and Dairy Food", "photoSrc": "foods.jpg", "allergen": ["egg", "dairy"]},
+                        { "name": "Nut, Dairy, and Egg Food", "photoSrc": "foods.jpg", "allergen": ["nut", "dairy", "egg"]},
+                        { "name": "Dessert Food", "photoSrc": "foods.jpg", "allergen": []}
+                    ]
+                }
+            };
+            var filters = myDataBeachhead['filters'];
+            var recipes = myDataBeachhead['recipes'];
+            var category = "";
+
+            function buildRecipesToScreen(category){
+                var rowIdx = 0;
+
+                for (var i = 0; i < recipes[category].length; i++) {
+                    var allergenString = '';
+                    for (var j = 0; j < recipes[category][i]["allergen"].length; j++) {
+                        allergenString += recipes[category][i]["allergen"][j] + ' ';
+                        // console.log(allergenString);
+                    }
+                    var recipeItem = $('<div allergens="' + allergenString + '" class="offset-by-one three columns foodItem"></div>');
+                    var imgSrc = $('<img src="images/' + recipes[category][i]['photoSrc'] + '"/>');
+                    var foodName = $('<p class="foodName">' + recipes[category][i]['name'] + '</p>');
+
+                    // Create a new 'row' item every 3 recipes
+                    if (i % 3 == 0) {
+                        var recipeRow = $('<div class="foodRow row" rowIdx="' + rowIdx + '"></div>');
+                        $('.mainSec').append(recipeRow);
+                        recipeItem.appendTo(recipeRow);
+                        imgSrc.appendTo(recipeItem);
+                        foodName.appendTo(recipeItem);
+                        rowIdx++;
+                    } else {
+                        recipeItem.appendTo(recipeRow);
+                        imgSrc.appendTo(recipeItem);
+                        foodName.appendTo(recipeItem);
+                    }
+                }
+            }
+            
+            function removeRecipesFromScreen(){
+                $('.foodRow').remove();
+            }
+
+            function buildFiltersToScreen(category){
+                var allergens = [];
+                
+                for (var i = 0; i < recipes[category].length; i++) {
+                    var j = 0;
+                    
+                    while (j < recipes[category][i]['allergen'].length) {
+                        if ($.inArray(recipes[category][i]['allergen'][j], allergens) != -1) {
+                            j++;
+                        } else {
+                            allergens.push(recipes[category][i]['allergen'][j]);
+                            j++;
+                        }   
+                    }    
+                }
+                for (var i = 0; i < filters.length; i++) {
+                    for (var j = 0; j < allergens.length; j++) {
+                        if (filters[i]['allergen'] == allergens[j]) {
+                            var checkBox = $('<input class="allergen" type="checkbox" name="' + filters[i]['allergen'] + '" value="' + filters[i]['name'] + '"> ' + filters[i]['name'] + '<br>');
+                            checkBox.appendTo('.allergen-container');
+                        }
+                    }
+                }
+            }
+            
+            function removeFiltersFromScreen() {
+                $('.allergen-container').empty();
+            }
+            
+            $('.meal-filters li').on('click', function(){
+                removeRecipesFromScreen();
+                removeFiltersFromScreen();
+                category = $(this).attr('category');
+                buildRecipesToScreen(category);
+                buildFiltersToScreen(category);
+                $height = $('.mainSec').height();
+                $('.filters').height($height);
+            });
+            
+            var RemovedFoods = [];
+            $('form').change(function(){
+                $( "form input:checked" ).each(function() {
+                    var name = $(this).attr('name');
+                    var foods = $('.foodItem');
+                    // loop through all the recipes on the screen
+                    for (var i = 0; i < foods.length; i++) {
+                        var allergensToRemove = $(foods[i]).attr('allergens').split(' ');
+                        for (var j = 0; j < allergensToRemove.length; j++) {
+                            if (allergensToRemove[j] == name) {
+                                RemovedFoods.push($(foods[i]));
+                                $(foods[i]).remove();
+                            }
+                        }
+                    }
+                });
+//                $("form input:not(:checked)").each(function(){
+//                    var name = $(this).attr('name');
+//                    for (var i = 0; i < RemovedFoods.length; i++) {
+//                        var allergensToAdd = $(RemovedFoods[i]).attr('allergens').split(' ');
+//                        for (var j = 0; j < allergensToAdd.length; j++) {
+//                            if (allergensToAdd[j] == name) {
+//                                $(RemovedFoods[i]).appendTo($('.foodRow'));
+//                            }
+//                        }
+//                    }
+//                });
+
+            });
+//            $.ajax({
+//                dataType:'json',
+//                url:'http://localhost:8888/recipes.json',
+//                success:function(returnData, statusValue, weirdNewObject) { 
+//                    myDataBeachhead = returnData;
+//                    console.log ('got it, move along'); 
+//                    runMainProgram();
+//                }, error:function(){
+//                    
+//                }
+//            });
+
+	</script>
+    </body> 
+</html>

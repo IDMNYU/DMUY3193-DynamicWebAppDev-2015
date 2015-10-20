@@ -1,0 +1,125 @@
+<html>
+<head>
+	<title>EDW Drywall</title>
+	<script src="./jquery-1.11.3.min.js"></script>
+	<script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+	<style>
+		body {
+			background-color:#eeb;
+		}
+		td {
+			text-align: center;
+		}
+	</style>
+</head>
+<body>
+	<h1>EDW Drywall</h1>
+	<table style="width:100%">
+		 <thead>
+			<tr>
+				<th>Job <br/>
+					<button onclick="sortByKey(allJobs, 'job', 1)">Sort Ascending</button>
+					<button onclick="sortByKey(allJobs, 'job', -1)">Sort Descending</button>
+				</th>
+				<th>Location <br/>
+					<button onclick="sortByKey(allJobs, 'loc', 1)">Sort Ascending</button>
+					<button onclick="sortByKey(allJobs, 'loc', -1)">Sort Descending</button>
+				</th> 
+				<th>Bid Accepted <br/>
+					<button onclick="sortByKey(allJobs, 'bid_accepted', 1)">Sort Ascending</button>
+					<button onclick="sortByKey(allJobs, 'bid_accepted', -1)">Sort Descending</button>
+				</th>
+				<th>Job Completed <br/>
+					<button onclick="sortByKey(allJobs, 'job_completed', 1)">Sort Ascending</button>
+					<button onclick="sortByKey(allJobs, 'job_completed', -1)">Sort Descending</button>
+				</th> 
+			</tr>
+		 </thead>
+		 <tbody id="table"></tbody>
+	</table>
+	<script>
+
+		var myDataBeachhead = {};
+
+		var allJobs = [];
+
+		function sortByKey(array, key, direction) {
+		    array.sort(function(a, b) {
+		        var x = a[key]; var y = b[key];
+		        return ((x < y) ? -1 : ((x > y) ? 1 : 0));
+		    });
+		    if (direction == -1) {
+		    	array.reverse();
+		    }
+		    update();
+		}
+
+		function buildJobSet() {
+			for (var i = 0; i < myDataBeachhead['full_set'].length; i++) {
+				var ii = myDataBeachhead['full_set'][i];
+
+				var temp = {
+					'job': ii['job'],
+					'location': ii['location'],
+					'bid_accepted': ii['bid_accepted'],
+					'job_completed': ii['job_completed']
+				};
+
+				allJobs[i] = temp;
+
+			}
+		}
+
+		function update() {
+			$('#table').html("");
+			for (var i = 0; i < allJobs.length; i++) {
+				render(allJobs[i], $('#table'));
+			}
+		}
+
+		function render(job, screenObj) {
+
+			var jobObj = $('<tr></tr>');
+
+			console.log(job['job']);
+
+			jobObj.append(
+				'<td>' + job['job'] + '</td>' + 
+				'<td>' + job['location'] + '</td>' + 
+				'<td>' + job['bid_accepted'] + '</td>' + 
+				'<td>' + job['job_completed'] + '</td>'
+			);
+
+			
+			screenObj.append(jobObj);
+
+		}
+ 
+		function runMainProgram() {	
+			console.log(myDataBeachhead['full_set'].length);
+
+			buildJobSet();
+			for (var i = 0; i < allJobs.length; i++) {
+				render(allJobs[i], $('#table'));
+			}
+
+		}
+
+		$.ajax({
+			dataType:'json',
+			url:'./jobs.json',
+			success:function(returnData, statusValue, weirdNewObject) { 
+				myDataBeachhead = returnData;
+				console.log ('got it, move along'); 
+				runMainProgram();
+			},
+			error:function(error, errStr, errCode) {
+				console.log('error ' + errStr + ', ' + errCode);
+			}
+		});
+
+		console.log('test1');
+
+	</script>
+</body>
+</html>
